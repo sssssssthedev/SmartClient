@@ -23,19 +23,11 @@ public class Element {
 	}
 
 	public void update(){
-		/*
-		 * Richtig positionieren! Offset wird von ClickGUI aus bestimmt, sodass
-		 * nichts ineinander gerendert wird
-		 */
 		x = parent.x + parent.width + 2;
 		y = parent.y + offset;
 		width = parent.width + 10;
 		height = 15;
 
-		/*
-		 * Title der Box bestimmen und falls nötig die Breite der CheckBox
-		 * erweitern
-		 */
 		String sname = set.getName();
 		if(set.isCheck()){
 			setstrg = sname.substring(0, 1).toUpperCase() + sname.substring(1);
