@@ -604,7 +604,7 @@ INFO: Processed 728 -> 728
 INFO: Processing net/minecraft/client/Minecraft$17.class
 INFO: Processed 1021 -> 1021
 INFO: Processing net/minecraft/client/Minecraft$18.class
-INFO: Processed 1550 -> 1518
+INFO: Processed 1505 -> 1473
 INFO: Processing net/minecraft/client/Minecraft$2.class
 INFO: Processed 856 -> 853
 INFO: Processing net/minecraft/client/Minecraft$3.class
@@ -624,7 +624,7 @@ INFO: Processed 1208 -> 1208
 INFO: Processing net/minecraft/client/Minecraft.class
 FINE: Access: net/minecraft/client/Minecraft/access$100(Lnet/minecraft/client/Minecraft;)Lnet/minecraft/client/resources/LanguageManager; [GETFIELD net/minecraft/client/Minecraft/mcLanguageManager Lnet/minecraft/client/resources/LanguageManager;]
 FINE: Access: net/minecraft/client/Minecraft/access$000(Lnet/minecraft/client/Minecraft;)Ljava/lang/String; [GETFIELD net/minecraft/client/Minecraft/launchedVersion Ljava/lang/String;]
-INFO: Processed 92638 -> 92485
+INFO: Processed 92611 -> 92458
 INFO: Processing net/minecraft/client/audio/GuardianSound.class
 INFO: Processed 1535 -> 1535
 INFO: Processing net/minecraft/client/audio/ISound$AttenuationType.class
@@ -700,12 +700,12 @@ INFO: Processed 7293 -> 7271
 INFO: Processing net/minecraft/client/entity/EntityOtherPlayerMP.class
 INFO: Processed 4893 -> 4890
 INFO: Processing net/minecraft/client/entity/EntityPlayerSP.class
-INFO: Processed 22807 -> 22812
+INFO: Processed 24486 -> 24492
 INFO: Processing net/minecraft/client/gui/ChatLine.class
 INFO: Processed 874 -> 874
 INFO: Processing net/minecraft/client/gui/FontRenderer.class
 INFO:  MarkerID: CL_00000660 net/minecraft/client/gui/FontRenderer
-INFO: Processed 19553 -> 19547
+INFO: Processed 20189 -> 20185
 INFO: Processing net/minecraft/client/gui/Gui.class
 INFO: Processed 6757 -> 6757
 INFO: Processing net/minecraft/client/gui/GuiButton.class
@@ -715,22 +715,22 @@ INFO: Processed 1412 -> 1412
 INFO: Processing net/minecraft/client/gui/GuiButtonRealmsProxy.class
 INFO: Processed 2644 -> 2644
 INFO: Processing net/minecraft/client/gui/GuiChat.class
-INFO: Processed 8607 -> 8574
+INFO: Processed 8612 -> 8579
 INFO: Processing net/minecraft/client/gui/GuiClickableScrolledSelectionListProxy.class
 INFO: Processed 3522 -> 3522
 INFO: Processing net/minecraft/client/gui/GuiCommandBlock.class
-INFO: Processed 6320 -> 6315
+INFO: Processed 6335 -> 6330
 INFO: Processing net/minecraft/client/gui/GuiConfirmOpenLink.class
-INFO: Processed 3044 -> 3035
+INFO: Processed 3051 -> 3042
 INFO: Processing net/minecraft/client/gui/GuiControls.class
-INFO: Processed 5607 -> 5598
+INFO: Processed 5614 -> 5605
 INFO: Processing net/minecraft/client/gui/GuiCreateFlatWorld$Details.class
-INFO: Processed 7008 -> 6997
+INFO: Processed 7011 -> 7000
 INFO: Processing net/minecraft/client/gui/GuiCreateFlatWorld.class
 FINE: Access: net/minecraft/client/gui/GuiCreateFlatWorld/access$000(Lnet/minecraft/client/gui/GuiCreateFlatWorld;)Lnet/minecraft/world/gen/FlatGeneratorInfo; [GETFIELD net/minecraft/client/gui/GuiCreateFlatWorld/theFlatGeneratorInfo Lnet/minecraft/world/gen/FlatGeneratorInfo;]
-INFO: Processed 5298 -> 5298
+INFO: Processed 5312 -> 5312
 INFO: Processing net/minecraft/client/gui/GuiCreateWorld.class
-INFO: Processed 13201 -> 13235
+INFO: Processed 13223 -> 13257
 INFO: Processing net/minecraft/client/gui/GuiCustomizeSkin$1.class
 INFO: Processed 246 -> 246
 INFO: Processing net/minecraft/client/gui/GuiCustomizeSkin$ButtonPart.class
@@ -738,32 +738,32 @@ FINE: Access: net/minecraft/client/gui/GuiCustomizeSkin$ButtonPart/access$100(Ln
 INFO: Processed 1703 -> 1703
 INFO: Processing net/minecraft/client/gui/GuiCustomizeSkin.class
 FINE: Access: net/minecraft/client/gui/GuiCustomizeSkin/access$200(Lnet/minecraft/client/gui/GuiCustomizeSkin;Lnet/minecraft/entity/player/EnumPlayerModelParts;)Ljava/lang/String; [INVOKESPECIAL net/minecraft/client/gui/GuiCustomizeSkin/func_175358_a (Lnet/minecraft/entity/player/EnumPlayerModelParts;)Ljava/lang/String;]
-INFO: Processed 4161 -> 4158
+INFO: Processed 4166 -> 4163
 INFO: Processing net/minecraft/client/gui/GuiCustomizeWorldScreen$1.class
 INFO: Processed 1320 -> 1317
 INFO: Processing net/minecraft/client/gui/GuiCustomizeWorldScreen.class
-INFO: Processed 27364 -> 27553
+INFO: Processed 27396 -> 27585
 INFO: Processing net/minecraft/client/gui/GuiDisconnected.class
-INFO: Processed 3047 -> 3044
+INFO: Processed 4236 -> 4233
 INFO: Processing net/minecraft/client/gui/GuiDownloadTerrain.class
-INFO: Processed 1940 -> 1940
+INFO: Processed 1942 -> 1942
 INFO: Processing net/minecraft/client/gui/GuiEnchantment.class
-INFO: Processed 10874 -> 10886
+INFO: Processed 10878 -> 10890
 INFO: Processing net/minecraft/client/gui/GuiErrorScreen.class
-INFO: Processed 2035 -> 2035
+INFO: Processed 2040 -> 2040
 INFO: Processing net/minecraft/client/gui/GuiFlatPresets$LayerItem.class
 INFO: Processed 823 -> 823
 INFO: Processing net/minecraft/client/gui/GuiFlatPresets$ListSlot.class
-INFO: Processed 5228 -> 5228
+INFO: Processed 5231 -> 5231
 INFO: Processing net/minecraft/client/gui/GuiFlatPresets.class
 FINE: Access: net/minecraft/client/gui/GuiFlatPresets/access$000()Ljava/util/List; [GETSTATIC net/minecraft/client/gui/GuiFlatPresets/FLAT_WORLD_PRESETS Ljava/util/List;]
 FINE: Access: net/minecraft/client/gui/GuiFlatPresets/access$100(Lnet/minecraft/client/gui/GuiFlatPresets;)Lnet/minecraft/client/gui/GuiFlatPresets$ListSlot; [GETFIELD net/minecraft/client/gui/GuiFlatPresets/field_146435_s Lnet/minecraft/client/gui/GuiFlatPresets$ListSlot;]
 FINE: Access: net/minecraft/client/gui/GuiFlatPresets/access$200(Lnet/minecraft/client/gui/GuiFlatPresets;)Lnet/minecraft/client/gui/GuiTextField; [GETFIELD net/minecraft/client/gui/GuiFlatPresets/field_146433_u Lnet/minecraft/client/gui/GuiTextField;]
-INFO: Processed 9891 -> 9919
+INFO: Processed 9897 -> 9925
 INFO: Processing net/minecraft/client/gui/GuiGameOver.class
-INFO: Processed 5109 -> 5106
+INFO: Processed 5122 -> 5119
 INFO: Processing net/minecraft/client/gui/GuiHopper.class
-INFO: Processed 2682 -> 2682
+INFO: Processed 2684 -> 2684
 INFO: Processing net/minecraft/client/gui/GuiIngame$1.class
 INFO:  MarkerID: CL_00001958 net/minecraft/client/gui/GuiIngame$1
 INFO: Processed 1265 -> 1265
@@ -771,28 +771,28 @@ INFO: Processing net/minecraft/client/gui/GuiIngame.class
 INFO:  MarkerID: CL_00000661 net/minecraft/client/gui/GuiIngame
 INFO: Processed 30417 -> 30425
 INFO: Processing net/minecraft/client/gui/GuiIngameMenu.class
-INFO: Processed 4478 -> 4472
+INFO: Processed 4491 -> 4485
 INFO: Processing net/minecraft/client/gui/GuiKeyBindingList$1.class
 INFO: Processed 249 -> 249
 INFO: Processing net/minecraft/client/gui/GuiKeyBindingList$CategoryEntry.class
-INFO: Processed 2376 -> 2376
+INFO: Processed 2377 -> 2377
 INFO: Processing net/minecraft/client/gui/GuiKeyBindingList$KeyEntry.class
 INFO: Processed 4912 -> 4906
 INFO: Processing net/minecraft/client/gui/GuiKeyBindingList.class
 FINE: Access: net/minecraft/client/gui/GuiKeyBindingList/access$200(Lnet/minecraft/client/gui/GuiKeyBindingList;)Lnet/minecraft/client/gui/GuiControls; [GETFIELD net/minecraft/client/gui/GuiKeyBindingList/field_148191_k Lnet/minecraft/client/gui/GuiControls;]
 FINE: Access: net/minecraft/client/gui/GuiKeyBindingList/access$100(Lnet/minecraft/client/gui/GuiKeyBindingList;)Lnet/minecraft/client/Minecraft; [GETFIELD net/minecraft/client/gui/GuiKeyBindingList/mc Lnet/minecraft/client/Minecraft;]
 FINE: Access: net/minecraft/client/gui/GuiKeyBindingList/access$300(Lnet/minecraft/client/gui/GuiKeyBindingList;)I [GETFIELD net/minecraft/client/gui/GuiKeyBindingList/maxListLabelWidth I]
-INFO: Processed 3819 -> 3804
+INFO: Processed 3822 -> 3807
 INFO: Processing net/minecraft/client/gui/GuiLabel.class
 INFO: Processed 3233 -> 3233
 INFO: Processing net/minecraft/client/gui/GuiLanguage$List.class
-INFO: Processed 4836 -> 4818
+INFO: Processed 4839 -> 4821
 INFO: Processing net/minecraft/client/gui/GuiLanguage.class
 FINE: Access: net/minecraft/client/gui/GuiLanguage/access$000(Lnet/minecraft/client/gui/GuiLanguage;)Lnet/minecraft/client/resources/LanguageManager; [GETFIELD net/minecraft/client/gui/GuiLanguage/languageManager Lnet/minecraft/client/resources/LanguageManager;]
 FINE: Access: net/minecraft/client/gui/GuiLanguage/access$200(Lnet/minecraft/client/gui/GuiLanguage;)Lnet/minecraft/client/gui/GuiOptionButton; [GETFIELD net/minecraft/client/gui/GuiLanguage/confirmSettingsBtn Lnet/minecraft/client/gui/GuiOptionButton;]
 FINE: Access: net/minecraft/client/gui/GuiLanguage/access$100(Lnet/minecraft/client/gui/GuiLanguage;)Lnet/minecraft/client/settings/GameSettings; [GETFIELD net/minecraft/client/gui/GuiLanguage/game_settings_3 Lnet/minecraft/client/settings/GameSettings;]
 FINE: Access: net/minecraft/client/gui/GuiLanguage/access$300(Lnet/minecraft/client/gui/GuiLanguage;)Lnet/minecraft/client/gui/GuiOptionButton; [GETFIELD net/minecraft/client/gui/GuiLanguage/forceUnicodeFontBtn Lnet/minecraft/client/gui/GuiOptionButton;]
-INFO: Processed 4804 -> 4804
+INFO: Processed 4811 -> 4811
 INFO: Processing net/minecraft/client/gui/GuiListButton.class
 INFO: Processed 2113 -> 2107
 INFO: Processing net/minecraft/client/gui/GuiListExtended$IGuiListEntry.class
@@ -804,16 +804,16 @@ INFO: Processed 1816 -> 1813
 INFO: Processing net/minecraft/client/gui/GuiLockIconButton.class
 INFO: Processed 2220 -> 2217
 INFO: Processing net/minecraft/client/gui/GuiMainMenu.class
-INFO: Processed 19050 -> 19063
+INFO: Processed 19001 -> 19014
 INFO: Processing net/minecraft/client/gui/GuiMemoryErrorScreen.class
-INFO: Processed 2883 -> 2883
+INFO: Processed 2905 -> 2905
 INFO: Processing net/minecraft/client/gui/GuiMerchant$MerchantButton.class
 INFO: Processed 1674 -> 1674
 INFO: Processing net/minecraft/client/gui/GuiMerchant.class
 FINE: Access: net/minecraft/client/gui/GuiMerchant/access$000()Lnet/minecraft/util/ResourceLocation; [GETSTATIC net/minecraft/client/gui/GuiMerchant/MERCHANT_GUI_TEXTURE Lnet/minecraft/util/ResourceLocation;]
-INFO: Processed 7994 -> 7985
+INFO: Processed 8000 -> 7991
 INFO: Processing net/minecraft/client/gui/GuiMultiplayer.class
-INFO: Processed 13562 -> 13568
+INFO: Processed 15471 -> 15477
 INFO: Processing net/minecraft/client/gui/GuiNewChat.class
 INFO: Processed 9461 -> 9443
 INFO: Processing net/minecraft/client/gui/GuiOptionButton.class
@@ -821,7 +821,7 @@ INFO: Processed 1413 -> 1413
 INFO: Processing net/minecraft/client/gui/GuiOptions$1.class
 INFO: Processed 1906 -> 1903
 INFO: Processing net/minecraft/client/gui/GuiOptions.class
-INFO: Processed 9327 -> 9312
+INFO: Processed 9356 -> 9341
 INFO: Processing net/minecraft/client/gui/GuiOptionSlider.class
 INFO: Processed 3402 -> 3402
 INFO: Processing net/minecraft/client/gui/GuiOptionsRowList$Row.class
@@ -859,10 +859,14 @@ INFO: Processing net/minecraft/client/gui/GuiPlayerTabOverlay$PlayerComparator.c
 INFO: Processed 2630 -> 2618
 INFO: Processing net/minecraft/client/gui/GuiPlayerTabOverlay.class
 INFO: Processed 13660 -> 13628
+INFO: Processing net/minecraft/client/gui/GuiProtocolSelector$SlotList.class
+INFO: Processed 2865 -> 2856
+INFO: Processing net/minecraft/client/gui/GuiProtocolSelector.class
+INFO: Processed 2627 -> 2627
 INFO: Processing net/minecraft/client/gui/GuiRenameWorld.class
-INFO: Processed 4048 -> 4042
+INFO: Processed 4055 -> 4049
 INFO: Processing net/minecraft/client/gui/GuiRepair.class
-INFO: Processed 8250 -> 8234
+INFO: Processed 8254 -> 8238
 INFO: Processing net/minecraft/client/gui/GuiResourcePackAvailable.class
 INFO: Processed 1112 -> 1112
 INFO: Processing net/minecraft/client/gui/GuiResourcePackList.class
@@ -870,42 +874,42 @@ INFO: Processed 3140 -> 3140
 INFO: Processing net/minecraft/client/gui/GuiResourcePackSelected.class
 INFO: Processed 1108 -> 1108
 INFO: Processing net/minecraft/client/gui/GuiScreen.class
-INFO: Processed 21627 -> 21620
+INFO: Processed 21645 -> 21638
 INFO: Processing net/minecraft/client/gui/GuiScreenAddServer$1.class
 INFO: Processed 1409 -> 1406
 INFO: Processing net/minecraft/client/gui/GuiScreenAddServer.class
-INFO: Processed 5446 -> 5437
+INFO: Processed 5457 -> 5448
 INFO: Processing net/minecraft/client/gui/GuiScreenBook$NextPageButton.class
 INFO: Processed 1638 -> 1638
 INFO: Processing net/minecraft/client/gui/GuiScreenBook.class
 FINE: Access: net/minecraft/client/gui/GuiScreenBook/access$000()Lnet/minecraft/util/ResourceLocation; [GETSTATIC net/minecraft/client/gui/GuiScreenBook/bookGuiTextures Lnet/minecraft/util/ResourceLocation;]
-INFO: Processed 15018 -> 14995
+INFO: Processed 15026 -> 15003
 INFO: Processing net/minecraft/client/gui/GuiScreenCustomizePresets$Info.class
 INFO: Processed 1025 -> 1025
 INFO: Processing net/minecraft/client/gui/GuiScreenCustomizePresets$ListPreset.class
-INFO: Processed 4612 -> 4612
+INFO: Processed 4615 -> 4615
 INFO: Processing net/minecraft/client/gui/GuiScreenCustomizePresets.class
 FINE: Access: net/minecraft/client/gui/GuiScreenCustomizePresets/access$200(Lnet/minecraft/client/gui/GuiScreenCustomizePresets;)Lnet/minecraft/client/gui/GuiTextField; [GETFIELD net/minecraft/client/gui/GuiScreenCustomizePresets/field_175317_i Lnet/minecraft/client/gui/GuiTextField;]
 FINE: Access: net/minecraft/client/gui/GuiScreenCustomizePresets/access$000()Ljava/util/List; [GETSTATIC net/minecraft/client/gui/GuiScreenCustomizePresets/field_175310_f Ljava/util/List;]
 FINE: Access: net/minecraft/client/gui/GuiScreenCustomizePresets/access$100(Lnet/minecraft/client/gui/GuiScreenCustomizePresets;)Lnet/minecraft/client/gui/GuiScreenCustomizePresets$ListPreset; [GETFIELD net/minecraft/client/gui/GuiScreenCustomizePresets/field_175311_g Lnet/minecraft/client/gui/GuiScreenCustomizePresets$ListPreset;]
-INFO: Processed 11719 -> 11738
+INFO: Processed 11725 -> 11744
 INFO: Processing net/minecraft/client/gui/GuiScreenDemo.class
-INFO: Processed 4809 -> 4806
+INFO: Processed 4817 -> 4814
 INFO: Processing net/minecraft/client/gui/GuiScreenOptionsSounds$Button.class
 INFO: Processed 4217 -> 4211
 INFO: Processing net/minecraft/client/gui/GuiScreenOptionsSounds.class
 FINE: Access: net/minecraft/client/gui/GuiScreenOptionsSounds/access$000(Lnet/minecraft/client/gui/GuiScreenOptionsSounds;)Lnet/minecraft/client/settings/GameSettings; [GETFIELD net/minecraft/client/gui/GuiScreenOptionsSounds/game_settings_4 Lnet/minecraft/client/settings/GameSettings;]
-INFO: Processed 3817 -> 3814
+INFO: Processed 3824 -> 3821
 INFO: Processing net/minecraft/client/gui/GuiScreenRealmsProxy.class
 INFO: Processed 7110 -> 7104
 INFO: Processing net/minecraft/client/gui/GuiScreenResourcePacks.class
-INFO: Processed 9516 -> 9500
+INFO: Processed 9527 -> 9511
 INFO: Processing net/minecraft/client/gui/GuiScreenServerList.class
-INFO: Processed 4025 -> 4019
+INFO: Processed 4032 -> 4026
 INFO: Processing net/minecraft/client/gui/GuiScreenWorking.class
-INFO: Processed 2096 -> 2096
+INFO: Processed 2098 -> 2098
 INFO: Processing net/minecraft/client/gui/GuiSelectWorld$List.class
-INFO: Processed 4665 -> 4662
+INFO: Processed 4668 -> 4665
 INFO: Processing net/minecraft/client/gui/GuiSelectWorld.class
 FINE: Access: net/minecraft/client/gui/GuiSelectWorld/access$800(Lnet/minecraft/client/gui/GuiSelectWorld;)Ljava/lang/String; [GETFIELD net/minecraft/client/gui/GuiSelectWorld/field_146636_v Ljava/lang/String;]
 FINE: Access: net/minecraft/client/gui/GuiSelectWorld/access$900(Lnet/minecraft/client/gui/GuiSelectWorld;)[Ljava/lang/String; [GETFIELD net/minecraft/client/gui/GuiSelectWorld/field_146635_w [Ljava/lang/String;]
@@ -918,13 +922,13 @@ FINE: Access: net/minecraft/client/gui/GuiSelectWorld/access$600(Lnet/minecraft/
 FINE: Access: net/minecraft/client/gui/GuiSelectWorld/access$400(Lnet/minecraft/client/gui/GuiSelectWorld;)Lnet/minecraft/client/gui/GuiButton; [GETFIELD net/minecraft/client/gui/GuiSelectWorld/renameButton Lnet/minecraft/client/gui/GuiButton;]
 FINE: Access: net/minecraft/client/gui/GuiSelectWorld/access$500(Lnet/minecraft/client/gui/GuiSelectWorld;)Lnet/minecraft/client/gui/GuiButton; [GETFIELD net/minecraft/client/gui/GuiSelectWorld/recreateButton Lnet/minecraft/client/gui/GuiButton;]
 FINE: Access: net/minecraft/client/gui/GuiSelectWorld/access$200(Lnet/minecraft/client/gui/GuiSelectWorld;)Lnet/minecraft/client/gui/GuiButton; [GETFIELD net/minecraft/client/gui/GuiSelectWorld/selectButton Lnet/minecraft/client/gui/GuiButton;]
-INFO: Processed 9987 -> 9987
+INFO: Processed 10000 -> 10000
 INFO: Processing net/minecraft/client/gui/GuiShareToLan.class
-INFO: Processed 4403 -> 4394
+INFO: Processed 4411 -> 4402
 INFO: Processing net/minecraft/client/gui/GuiSimpleScrolledSelectionListProxy.class
 INFO: Processed 5368 -> 5359
 INFO: Processing net/minecraft/client/gui/GuiSleepMP.class
-INFO: Processed 2920 -> 2917
+INFO: Processed 2922 -> 2919
 INFO: Processing net/minecraft/client/gui/GuiSlider$FormatHelper.class
 INFO: Processed 284 -> 284
 INFO: Processing net/minecraft/client/gui/GuiSlider.class
@@ -934,11 +938,11 @@ INFO: Processed 11356 -> 11348
 INFO: Processing net/minecraft/client/gui/GuiSlotRealmsProxy.class
 INFO: Processed 2246 -> 2246
 INFO: Processing net/minecraft/client/gui/GuiSnooper$List.class
-INFO: Processed 1916 -> 1916
+INFO: Processed 1919 -> 1919
 INFO: Processing net/minecraft/client/gui/GuiSnooper.class
 FINE: Access: net/minecraft/client/gui/GuiSnooper/access$100(Lnet/minecraft/client/gui/GuiSnooper;)Ljava/util/List; [GETFIELD net/minecraft/client/gui/GuiSnooper/field_146609_h Ljava/util/List;]
 FINE: Access: net/minecraft/client/gui/GuiSnooper/access$000(Lnet/minecraft/client/gui/GuiSnooper;)Ljava/util/List; [GETFIELD net/minecraft/client/gui/GuiSnooper/field_146604_g Ljava/util/List;]
-INFO: Processed 5853 -> 5837
+INFO: Processed 5862 -> 5846
 INFO: Processing net/minecraft/client/gui/GuiSpectator.class
 INFO: Processed 6858 -> 6854
 INFO: Processing net/minecraft/client/gui/GuiStreamIndicator.class
@@ -949,11 +953,11 @@ INFO: Processing net/minecraft/client/gui/GuiUtilRenderComponents.class
 INFO: Processed 4332 -> 4317
 INFO: Processing net/minecraft/client/gui/GuiVideoSettings.class
 INFO:  MarkerID: CL_00000718 net/minecraft/client/gui/GuiVideoSettings
-INFO: Processed 8015 -> 8020
+INFO: Processed 8030 -> 8035
 INFO: Processing net/minecraft/client/gui/GuiWinGame.class
-INFO: Processed 9975 -> 9962
+INFO: Processed 9991 -> 9978
 INFO: Processing net/minecraft/client/gui/GuiYesNo.class
-INFO: Processed 3847 -> 3835
+INFO: Processed 3854 -> 3842
 INFO: Processing net/minecraft/client/gui/GuiYesNoCallback.class
 INFO: Processed 171 -> 171
 INFO: Processing net/minecraft/client/gui/IProgressMeter.class
@@ -972,11 +976,11 @@ INFO: Processed 3354 -> 3348
 INFO: Processing net/minecraft/client/gui/ScaledResolution.class
 INFO: Processed 1665 -> 1659
 INFO: Processing net/minecraft/client/gui/ScreenChatOptions.class
-INFO: Processed 3949 -> 3943
+INFO: Processed 3956 -> 3950
 INFO: Processing net/minecraft/client/gui/ServerListEntryLanDetected.class
 INFO: Processed 3131 -> 3131
 INFO: Processing net/minecraft/client/gui/ServerListEntryLanScan.class
-INFO: Processed 2419 -> 2419
+INFO: Processed 2420 -> 2420
 INFO: Processing net/minecraft/client/gui/ServerListEntryNormal$1.class
 INFO: Processed 2060 -> 2054
 INFO: Processing net/minecraft/client/gui/ServerListEntryNormal.class
@@ -988,21 +992,21 @@ INFO: Processed 4020 -> 4017
 INFO: Processing net/minecraft/client/gui/achievement/GuiAchievement.class
 INFO: Processed 4822 -> 4819
 INFO: Processing net/minecraft/client/gui/achievement/GuiAchievements.class
-INFO: Processed 15245 -> 15267
+INFO: Processed 15257 -> 15279
 INFO: Processing net/minecraft/client/gui/achievement/GuiStats$Stats.class
-INFO: Processed 7246 -> 7232
+INFO: Processed 7249 -> 7235
 INFO: Processing net/minecraft/client/gui/achievement/GuiStats$StatsBlock$1.class
 INFO: Processed 2532 -> 2526
 INFO: Processing net/minecraft/client/gui/achievement/GuiStats$StatsBlock.class
 INFO: Processed 3964 -> 3949
 INFO: Processing net/minecraft/client/gui/achievement/GuiStats$StatsGeneral.class
-INFO: Processed 2992 -> 2980
+INFO: Processed 2995 -> 2983
 INFO: Processing net/minecraft/client/gui/achievement/GuiStats$StatsItem$1.class
 INFO: Processed 2524 -> 2518
 INFO: Processing net/minecraft/client/gui/achievement/GuiStats$StatsItem.class
 INFO: Processed 3959 -> 3944
 INFO: Processing net/minecraft/client/gui/achievement/GuiStats$StatsMobsList.class
-INFO: Processed 4634 -> 4619
+INFO: Processed 4637 -> 4622
 INFO: Processing net/minecraft/client/gui/achievement/GuiStats.class
 FINE: Access: net/minecraft/client/gui/achievement/GuiStats/access$500(Lnet/minecraft/client/gui/achievement/GuiStats;)Lnet/minecraft/client/gui/FontRenderer; [GETFIELD net/minecraft/client/gui/achievement/GuiStats/fontRendererObj Lnet/minecraft/client/gui/FontRenderer;]
 FINE: Access: net/minecraft/client/gui/achievement/GuiStats/access$200(Lnet/minecraft/client/gui/achievement/GuiStats;)Lnet/minecraft/client/gui/FontRenderer; [GETFIELD net/minecraft/client/gui/achievement/GuiStats/fontRendererObj Lnet/minecraft/client/gui/FontRenderer;]
@@ -1027,7 +1031,7 @@ FINE: Access: net/minecraft/client/gui/achievement/GuiStats/access$1100(Lnet/min
 FINE: Access: net/minecraft/client/gui/achievement/GuiStats/access$300(Lnet/minecraft/client/gui/achievement/GuiStats;)Lnet/minecraft/client/gui/FontRenderer; [GETFIELD net/minecraft/client/gui/achievement/GuiStats/fontRendererObj Lnet/minecraft/client/gui/FontRenderer;]
 FINE: Access: net/minecraft/client/gui/achievement/GuiStats/access$2100(Lnet/minecraft/client/gui/achievement/GuiStats;)Lnet/minecraft/client/gui/FontRenderer; [GETFIELD net/minecraft/client/gui/achievement/GuiStats/fontRendererObj Lnet/minecraft/client/gui/FontRenderer;]
 FINE: Access: net/minecraft/client/gui/achievement/GuiStats/access$1700(Lnet/minecraft/client/gui/achievement/GuiStats;)Lnet/minecraft/client/gui/FontRenderer; [GETFIELD net/minecraft/client/gui/achievement/GuiStats/fontRendererObj Lnet/minecraft/client/gui/FontRenderer;]
-INFO: Processed 10464 -> 10471
+INFO: Processed 10479 -> 10486
 INFO: Processing net/minecraft/client/gui/inventory/CreativeCrafting.class
 INFO: Processed 1874 -> 1874
 INFO: Processing net/minecraft/client/gui/inventory/GuiBeacon$Button.class
@@ -1043,13 +1047,13 @@ FINE: Access: net/minecraft/client/gui/inventory/GuiBeacon/access$100(Lnet/minec
 FINE: Access: net/minecraft/client/gui/inventory/GuiBeacon/access$200(Lnet/minecraft/client/gui/inventory/GuiBeacon;Ljava/lang/String;II)V [INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiBeacon/drawCreativeTabHoveringText (Ljava/lang/String;II)V]
 FINE: Access: net/minecraft/client/gui/inventory/GuiBeacon/access$000()Lnet/minecraft/util/ResourceLocation; [GETSTATIC net/minecraft/client/gui/inventory/GuiBeacon/beaconGuiTextures Lnet/minecraft/util/ResourceLocation;]
 FINE: Access: net/minecraft/client/gui/inventory/GuiBeacon/access$300(Lnet/minecraft/client/gui/inventory/GuiBeacon;Ljava/lang/String;II)V [INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiBeacon/drawCreativeTabHoveringText (Ljava/lang/String;II)V]
-INFO: Processed 8179 -> 8169
+INFO: Processed 8181 -> 8171
 INFO: Processing net/minecraft/client/gui/inventory/GuiBrewingStand.class
 INFO: Processed 3004 -> 3001
 INFO: Processing net/minecraft/client/gui/inventory/GuiChest.class
-INFO: Processed 2810 -> 2810
+INFO: Processed 2812 -> 2812
 INFO: Processing net/minecraft/client/gui/inventory/GuiContainer.class
-INFO: Processed 16146 -> 16130
+INFO: Processed 16148 -> 16132
 INFO: Processing net/minecraft/client/gui/inventory/GuiContainerCreative$ContainerCreative.class
 INFO: Processed 3626 -> 3617
 INFO: Processing net/minecraft/client/gui/inventory/GuiContainerCreative$CreativeSlot.class
@@ -1059,17 +1063,17 @@ INFO: Processing net/minecraft/client/gui/inventory/GuiContainerCreative.class
 FINE: Access: net/minecraft/client/gui/inventory/GuiContainerCreative/access$100()Lnet/minecraft/inventory/InventoryBasic; [GETSTATIC net/minecraft/client/gui/inventory/GuiContainerCreative/field_147060_v Lnet/minecraft/inventory/InventoryBasic;]
 INFO: Processed 21126 -> 21103
 INFO: Processing net/minecraft/client/gui/inventory/GuiCrafting.class
-INFO: Processed 2601 -> 2601
+INFO: Processed 2603 -> 2603
 INFO: Processing net/minecraft/client/gui/inventory/GuiDispenser.class
-INFO: Processed 2645 -> 2645
+INFO: Processed 2647 -> 2647
 INFO: Processing net/minecraft/client/gui/inventory/GuiEditSign.class
-INFO: Processed 5176 -> 5170
+INFO: Processed 5180 -> 5174
 INFO: Processing net/minecraft/client/gui/inventory/GuiFurnace.class
-INFO: Processed 3204 -> 3204
+INFO: Processed 3206 -> 3206
 INFO: Processing net/minecraft/client/gui/inventory/GuiInventory.class
 INFO: Processed 5695 -> 5695
 INFO: Processing net/minecraft/client/gui/inventory/GuiScreenHorseInventory.class
-INFO: Processed 3465 -> 3465
+INFO: Processed 3467 -> 3467
 INFO: Processing net/minecraft/client/gui/spectator/BaseSpectatorGroup.class
 INFO: Processed 1354 -> 1354
 INFO: Processing net/minecraft/client/gui/spectator/ISpectatorMenuObject.class
@@ -1100,7 +1104,7 @@ INFO: Processed 5099 -> 5084
 INFO: Processing net/minecraft/client/gui/spectator/categories/TeleportToTeam.class
 INFO: Processed 3637 -> 3628
 INFO: Processing net/minecraft/client/gui/stream/GuiIngestServers$ServerList.class
-INFO: Processed 4619 -> 4607
+INFO: Processed 4622 -> 4610
 INFO: Processing net/minecraft/client/gui/stream/GuiIngestServers.class
 FINE: Access: net/minecraft/client/gui/stream/GuiIngestServers/access$300(Lnet/minecraft/client/gui/stream/GuiIngestServers;)Lnet/minecraft/client/gui/FontRenderer; [GETFIELD net/minecraft/client/gui/stream/GuiIngestServers/fontRendererObj Lnet/minecraft/client/gui/FontRenderer;]
 FINE: Access: net/minecraft/client/gui/stream/GuiIngestServers/access$400(Lnet/minecraft/client/gui/stream/GuiIngestServers;)Lnet/minecraft/client/gui/FontRenderer; [GETFIELD net/minecraft/client/gui/stream/GuiIngestServers/fontRendererObj Lnet/minecraft/client/gui/FontRenderer;]
@@ -1110,17 +1114,17 @@ FINE: Access: net/minecraft/client/gui/stream/GuiIngestServers/access$500(Lnet/m
 FINE: Access: net/minecraft/client/gui/stream/GuiIngestServers/access$600(Lnet/minecraft/client/gui/stream/GuiIngestServers;)Lnet/minecraft/client/gui/FontRenderer; [GETFIELD net/minecraft/client/gui/stream/GuiIngestServers/fontRendererObj Lnet/minecraft/client/gui/FontRenderer;]
 FINE: Access: net/minecraft/client/gui/stream/GuiIngestServers/access$700(Lnet/minecraft/client/gui/stream/GuiIngestServers;)Lnet/minecraft/client/gui/FontRenderer; [GETFIELD net/minecraft/client/gui/stream/GuiIngestServers/fontRendererObj Lnet/minecraft/client/gui/FontRenderer;]
 FINE: Access: net/minecraft/client/gui/stream/GuiIngestServers/access$000(Lnet/minecraft/client/gui/stream/GuiIngestServers;)Lnet/minecraft/client/gui/FontRenderer; [GETFIELD net/minecraft/client/gui/stream/GuiIngestServers/fontRendererObj Lnet/minecraft/client/gui/FontRenderer;]
-INFO: Processed 3911 -> 3911
+INFO: Processed 3916 -> 3916
 INFO: Processing net/minecraft/client/gui/stream/GuiStreamOptions.class
-INFO: Processed 5841 -> 5832
+INFO: Processed 5857 -> 5848
 INFO: Processing net/minecraft/client/gui/stream/GuiStreamUnavailable$1.class
 INFO: Processed 2007 -> 1975
 INFO: Processing net/minecraft/client/gui/stream/GuiStreamUnavailable$Reason.class
 INFO: Processed 3853 -> 3850
 INFO: Processing net/minecraft/client/gui/stream/GuiStreamUnavailable.class
-INFO: Processed 9848 -> 9852
+INFO: Processed 9858 -> 9862
 INFO: Processing net/minecraft/client/gui/stream/GuiTwitchUserMode.class
-INFO: Processed 8408 -> 8403
+INFO: Processed 8417 -> 8412
 INFO: Processing net/minecraft/client/main/GameConfiguration$DisplayInformation.class
 INFO: Processed 738 -> 738
 INFO: Processing net/minecraft/client/main/GameConfiguration$FolderInformation.class
@@ -1249,7 +1253,7 @@ INFO: Processed 480 -> 480
 INFO: Processing net/minecraft/client/multiplayer/ChunkProviderClient.class
 INFO: Processed 5696 -> 5687
 INFO: Processing net/minecraft/client/multiplayer/GuiConnecting$1.class
-INFO: Processed 4946 -> 4925
+INFO: Processed 5002 -> 4981
 INFO: Processing net/minecraft/client/multiplayer/GuiConnecting.class
 FINE: Access: net/minecraft/client/multiplayer/GuiConnecting/access$700(Lnet/minecraft/client/multiplayer/GuiConnecting;)Lnet/minecraft/client/Minecraft; [GETFIELD net/minecraft/client/multiplayer/GuiConnecting/mc Lnet/minecraft/client/Minecraft;]
 FINE: Access: net/minecraft/client/multiplayer/GuiConnecting/access$100(Lnet/minecraft/client/multiplayer/GuiConnecting;)Lnet/minecraft/network/NetworkManager; [GETFIELD net/minecraft/client/multiplayer/GuiConnecting/networkManager Lnet/minecraft/network/NetworkManager;]
@@ -1261,9 +1265,9 @@ FINE: Access: net/minecraft/client/multiplayer/GuiConnecting/access$200(Lnet/min
 FINE: Access: net/minecraft/client/multiplayer/GuiConnecting/access$500(Lnet/minecraft/client/multiplayer/GuiConnecting;)Lnet/minecraft/client/Minecraft; [GETFIELD net/minecraft/client/multiplayer/GuiConnecting/mc Lnet/minecraft/client/Minecraft;]
 FINE: Access: net/minecraft/client/multiplayer/GuiConnecting/access$102(Lnet/minecraft/client/multiplayer/GuiConnecting;Lnet/minecraft/network/NetworkManager;)Lnet/minecraft/network/NetworkManager; [PUTFIELD net/minecraft/client/multiplayer/GuiConnecting/networkManager Lnet/minecraft/network/NetworkManager;]
 FINE: Access: net/minecraft/client/multiplayer/GuiConnecting/access$300(Lnet/minecraft/client/multiplayer/GuiConnecting;)Lnet/minecraft/client/Minecraft; [GETFIELD net/minecraft/client/multiplayer/GuiConnecting/mc Lnet/minecraft/client/Minecraft;]
-INFO: Processed 6076 -> 6076
+INFO: Processed 6269 -> 6269
 INFO: Processing net/minecraft/client/multiplayer/PlayerControllerMP.class
-INFO: Processed 17281 -> 17261
+INFO: Processed 17304 -> 17284
 INFO: Processing net/minecraft/client/multiplayer/ServerAddress.class
 INFO: Processed 3565 -> 3556
 INFO: Processing net/minecraft/client/multiplayer/ServerData$ServerResourceMode.class
@@ -1587,7 +1591,7 @@ INFO: Processed 1746 -> 1746
 INFO: Processing net/minecraft/client/renderer/EntityRenderer.class
 INFO:  MarkerID: CL_00000947 net/minecraft/client/renderer/EntityRenderer
 FINE: Access: net/minecraft/client/renderer/EntityRenderer/access$000(Lnet/minecraft/client/renderer/EntityRenderer;)Lnet/minecraft/client/Minecraft; [GETFIELD net/minecraft/client/renderer/EntityRenderer/mc Lnet/minecraft/client/Minecraft;]
-INFO: Processed 64342 -> 64386
+INFO: Processed 64439 -> 64483
 INFO: Processing net/minecraft/client/renderer/EntityRenderer1.class
 INFO: Processed 899 -> 899
 INFO: Processing net/minecraft/client/renderer/EntityRenderer2.class
@@ -1669,7 +1673,7 @@ INFO: Processing net/minecraft/client/renderer/ImageBufferDownload.class
 INFO:  MarkerID: CL_00000956 net/minecraft/client/renderer/ImageBufferDownload
 INFO: Processed 3642 -> 3636
 INFO: Processing net/minecraft/client/renderer/InventoryEffectRenderer.class
-INFO: Processed 4066 -> 4051
+INFO: Processed 4068 -> 4053
 INFO: Processing net/minecraft/client/renderer/ItemMeshDefinition.class
 INFO: Processed 269 -> 269
 INFO: Processing net/minecraft/client/renderer/ItemModelMesher.class
@@ -1932,7 +1936,7 @@ INFO:  MarkerID: CL_00002435 net/minecraft/client/renderer/entity/RendererLiving
 INFO: Processed 1278 -> 1267
 INFO: Processing net/minecraft/client/renderer/entity/RendererLivingEntity.class
 INFO:  MarkerID: CL_00001012 net/minecraft/client/renderer/entity/RendererLivingEntity
-INFO: Processed 19949 -> 19954
+INFO: Processed 20479 -> 20481
 INFO: Processing net/minecraft/client/renderer/entity/RenderFallingBlock.class
 INFO: Processed 4654 -> 4654
 INFO: Processing net/minecraft/client/renderer/entity/RenderFireball.class
@@ -2154,9 +2158,11 @@ INFO: Processing net/minecraft/client/renderer/texture/TextureCompass.class
 INFO:  MarkerID: CL_00001071 net/minecraft/client/renderer/texture/TextureCompass
 INFO: Processed 3156 -> 3153
 INFO: Processing net/minecraft/client/renderer/texture/TextureManager$1.class
-INFO: Processed 1353 -> 1353
+INFO:  MarkerID: CL_00001065 net/minecraft/client/renderer/texture/TextureManager$1
+INFO: Processed 1340 -> 1340
 INFO: Processing net/minecraft/client/renderer/texture/TextureManager.class
-INFO: Processed 7003 -> 6982
+INFO:  MarkerID: CL_00001064 net/minecraft/client/renderer/texture/TextureManager
+INFO: Processed 7428 -> 7406
 INFO: Processing net/minecraft/client/renderer/texture/TextureMap$1.class
 INFO:  MarkerID: CL_00001059 net/minecraft/client/renderer/texture/TextureMap$1
 INFO: Processed 1295 -> 1295
@@ -2383,7 +2389,7 @@ FINE: Access: net/minecraft/client/settings/GameSettings$Options/access$000(Lnet
 INFO: Processed 14692 -> 14945
 INFO: Processing net/minecraft/client/settings/GameSettings.class
 INFO:  MarkerID: CL_00000650 net/minecraft/client/settings/GameSettings
-INFO: Processed 62992 -> 63128
+INFO: Processed 62744 -> 62876
 INFO: Processing net/minecraft/client/settings/KeyBinding.class
 INFO: Processed 3805 -> 3802
 INFO: Processing net/minecraft/client/shader/Framebuffer.class
@@ -2821,7 +2827,7 @@ INFO: Processed 989 -> 989
 INFO: Processing net/minecraft/entity/Entity$4.class
 INFO: Processed 987 -> 987
 INFO: Processing net/minecraft/entity/Entity.class
-INFO: Processed 54185 -> 54170
+INFO: Processed 54453 -> 54429
 INFO: Processing net/minecraft/entity/EntityAgeable.class
 INFO: Processed 5654 -> 5649
 INFO: Processing net/minecraft/entity/EntityBodyHelper.class
@@ -3639,7 +3645,7 @@ INFO: Processed 967 -> 967
 INFO: Processing net/minecraft/item/ItemSpade.class
 INFO: Processed 1508 -> 1508
 INFO: Processing net/minecraft/item/ItemStack.class
-INFO: Processed 26212 -> 26241
+INFO: Processed 26324 -> 26355
 INFO: Processing net/minecraft/item/ItemSword.class
 INFO: Processed 5201 -> 5198
 INFO: Processing net/minecraft/item/ItemTool.class
@@ -3786,18 +3792,17 @@ INFO: Processed 1212 -> 1212
 INFO: Processing net/minecraft/network/NetworkManager$3.class
 INFO: Processed 1212 -> 1212
 INFO: Processing net/minecraft/network/NetworkManager$4.class
-INFO: Processed 2070 -> 2067
+INFO: Processed 2027 -> 2024
 INFO: Processing net/minecraft/network/NetworkManager$5.class
-INFO: Processed 2277 -> 2274
+INFO: Processed 3144 -> 3141
 INFO: Processing net/minecraft/network/NetworkManager$6.class
 INFO: Processed 1234 -> 1234
 INFO: Processing net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener.class
-FINE: Access: net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener/access$100(Lnet/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener;)Lnet/minecraft/network/Packet; [GETFIELD net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener/packet Lnet/minecraft/network/Packet;]
-FINE: Access: net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener/access$200(Lnet/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener;)[Lio/netty/util/concurrent/GenericFutureListener; [GETFIELD net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener/futureListeners [Lio/netty/util/concurrent/GenericFutureListener;]
+FINE: Access: net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener/access$100(Lnet/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener;)[Lio/netty/util/concurrent/GenericFutureListener; [GETFIELD net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener/futureListeners [Lio/netty/util/concurrent/GenericFutureListener;]
+FINE: Access: net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener/access$000(Lnet/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener;)Lnet/minecraft/network/Packet; [GETFIELD net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener/packet Lnet/minecraft/network/Packet;]
 INFO: Processed 1498 -> 1498
 INFO: Processing net/minecraft/network/NetworkManager.class
-FINE: Access: net/minecraft/network/NetworkManager/access$000(Lnet/minecraft/network/NetworkManager;)Lio/netty/channel/Channel; [GETFIELD net/minecraft/network/NetworkManager/channel Lio/netty/channel/Channel;]
-INFO: Processed 16692 -> 16684
+INFO: Processed 18091 -> 18088
 INFO: Processing net/minecraft/network/NetworkSystem$1.class
 INFO: Processed 1190 -> 1190
 INFO: Processing net/minecraft/network/NetworkSystem$2.class
@@ -3843,7 +3848,7 @@ INFO: Processed 677 -> 677
 INFO: Processing net/minecraft/network/handshake/INetHandlerHandshakeServer.class
 INFO: Processed 292 -> 292
 INFO: Processing net/minecraft/network/handshake/client/C00Handshake.class
-INFO: Processed 2532 -> 2532
+INFO: Processed 2732 -> 2732
 INFO: Processing net/minecraft/network/login/INetHandlerLoginClient.class
 INFO: Processed 582 -> 582
 INFO: Processing net/minecraft/network/login/INetHandlerLoginServer.class
@@ -4198,7 +4203,7 @@ INFO: Processed 2313 -> 2313
 INFO: Processing net/minecraft/realms/RealmsMth.class
 INFO: Processed 4813 -> 4813
 INFO: Processing net/minecraft/realms/RealmsScreen.class
-INFO: Processed 10137 -> 10134
+INFO: Processed 10139 -> 10136
 INFO: Processing net/minecraft/realms/RealmsScrolledSelectionList.class
 INFO: Processed 2909 -> 2909
 INFO: Processing net/minecraft/realms/RealmsServerAddress.class
@@ -4469,7 +4474,7 @@ INFO: Processed 5727 -> 5709
 INFO: Processing net/minecraft/tileentity/TileEntitySkull.class
 INFO: Processed 4659 -> 4653
 INFO: Processing net/minecraft/util/AxisAlignedBB.class
-INFO: Processed 7187 -> 7178
+INFO: Processed 7379 -> 7370
 INFO: Processing net/minecraft/util/BlockPos$1$1.class
 INFO: Processed 1505 -> 1505
 INFO: Processing net/minecraft/util/BlockPos$1.class
@@ -4803,7 +4808,7 @@ INFO: Processed 1263 -> 1263
 INFO: Processing net/minecraft/world/World$4.class
 INFO: Processed 1101 -> 1101
 INFO: Processing net/minecraft/world/World.class
-INFO: Processed 80541 -> 80500
+INFO: Processed 80618 -> 80577
 INFO: Processing net/minecraft/world/WorldManager.class
 INFO: Processed 5580 -> 5571
 INFO: Processing net/minecraft/world/WorldProvider.class
@@ -5481,9 +5486,14 @@ INFO: Copying net/sssssssthedev/SmartClient/clickgui/elements/menu/ElementComboB
 INFO: Copying net/sssssssthedev/SmartClient/clickgui/elements/menu/ElementSlider.class
 INFO: Copying net/sssssssthedev/SmartClient/clickgui/util/ColorUtil.class
 INFO: Copying net/sssssssthedev/SmartClient/clickgui/util/FontUtil.class
+INFO: Copying net/sssssssthedev/SmartClient/command/Command.class
+INFO: Copying net/sssssssthedev/SmartClient/command/CommandManager.class
+INFO: Copying net/sssssssthedev/SmartClient/command/exploits/Fawe.class
+INFO: Copying net/sssssssthedev/SmartClient/command/modules/Bind.class
+INFO: Copying net/sssssssthedev/SmartClient/command/modules/Toggle.class
+INFO: Copying net/sssssssthedev/SmartClient/command/other/Help.class
 INFO: Copying net/sssssssthedev/SmartClient/discord/Client.class
 INFO: Copying net/sssssssthedev/SmartClient/discord/DiscordMYRPC$1.class
-INFO: Copying net/sssssssthedev/SmartClient/discord/DiscordMYRPC$2.class
 INFO: Copying net/sssssssthedev/SmartClient/discord/DiscordMYRPC.class
 INFO: Copying net/sssssssthedev/SmartClient/event/ArrayHelper$1.class
 INFO: Copying net/sssssssthedev/SmartClient/event/ArrayHelper.class
@@ -5494,14 +5504,19 @@ INFO: Copying net/sssssssthedev/SmartClient/event/EventManager$1.class
 INFO: Copying net/sssssssthedev/SmartClient/event/EventManager.class
 INFO: Copying net/sssssssthedev/SmartClient/event/EventPriority.class
 INFO: Copying net/sssssssthedev/SmartClient/event/EventTarget.class
+INFO: Copying net/sssssssthedev/SmartClient/event/impl/BlockBBEvent.class
 INFO: Copying net/sssssssthedev/SmartClient/event/impl/ClientTickEvent.class
 INFO: Copying net/sssssssthedev/SmartClient/event/impl/CollideEvent.class
 INFO: Copying net/sssssssthedev/SmartClient/event/impl/Event2D.class
 INFO: Copying net/sssssssthedev/SmartClient/event/impl/Event3D.class
 INFO: Copying net/sssssssthedev/SmartClient/event/impl/KeyEvent.class
+INFO: Copying net/sssssssthedev/SmartClient/event/impl/MotionUpdateEvent.class
+INFO: Copying net/sssssssthedev/SmartClient/event/impl/MoveEvent.class
 INFO: Copying net/sssssssthedev/SmartClient/event/impl/PostMotionUpdateEvent.class
+INFO: Copying net/sssssssthedev/SmartClient/event/impl/PostRenderEntityEvent.class
 INFO: Copying net/sssssssthedev/SmartClient/event/impl/PreMotionUpdateEvent.class
 INFO: Copying net/sssssssthedev/SmartClient/event/impl/ReceivePacketEvent.class
+INFO: Copying net/sssssssthedev/SmartClient/event/impl/RenderEntityEvent.class
 INFO: Copying net/sssssssthedev/SmartClient/event/impl/RenderEvent.class
 INFO: Copying net/sssssssthedev/SmartClient/event/impl/SendPacketEvent.class
 INFO: Copying net/sssssssthedev/SmartClient/event/impl/UpdateEvent.class
@@ -5510,21 +5525,87 @@ INFO: Copying net/sssssssthedev/SmartClient/gui/UnicodeFontRenderer.class
 INFO: Copying net/sssssssthedev/SmartClient/module/Category.class
 INFO: Copying net/sssssssthedev/SmartClient/module/Module.class
 INFO: Copying net/sssssssthedev/SmartClient/module/ModuleManager.class
+INFO: Copying net/sssssssthedev/SmartClient/module/combat/AntiBot.class
+INFO: Copying net/sssssssthedev/SmartClient/module/combat/AutoArmor.class
 INFO: Copying net/sssssssthedev/SmartClient/module/combat/Criticals.class
 INFO: Copying net/sssssssthedev/SmartClient/module/combat/KillAura.class
+INFO: Copying net/sssssssthedev/SmartClient/module/combat/Velocity.class
+INFO: Copying net/sssssssthedev/SmartClient/module/crasher/Censored.class
+INFO: Copying net/sssssssthedev/SmartClient/module/crasher/CustomPayload.class
+INFO: Copying net/sssssssthedev/SmartClient/module/crasher/FlyCrash.class
+INFO: Copying net/sssssssthedev/SmartClient/module/crasher/Food.class
+INFO: Copying net/sssssssthedev/SmartClient/module/crasher/Netty.class
+INFO: Copying net/sssssssthedev/SmartClient/module/crasher/NettyOnePacket.class
+INFO: Copying net/sssssssthedev/SmartClient/module/crasher/NullPointCrasher.class
+INFO: Copying net/sssssssthedev/SmartClient/module/crasher/NullSmasher.class
+INFO: Copying net/sssssssthedev/SmartClient/module/crasher/SinglePacket.class
+INFO: Copying net/sssssssthedev/SmartClient/module/movement/Fly.class
+INFO: Copying net/sssssssthedev/SmartClient/module/movement/LongJump.class
+INFO: Copying net/sssssssthedev/SmartClient/module/movement/Phase.class
+INFO: Copying net/sssssssthedev/SmartClient/module/movement/Scaffold.class
+INFO: Copying net/sssssssthedev/SmartClient/module/movement/Speed.class
+INFO: Copying net/sssssssthedev/SmartClient/module/movement/Sprint.class
+INFO: Copying net/sssssssthedev/SmartClient/module/movement/Step.class
+INFO: Copying net/sssssssthedev/SmartClient/module/player/ChestStealer.class
+INFO: Copying net/sssssssthedev/SmartClient/module/player/InstantRespawn.class
+INFO: Copying net/sssssssthedev/SmartClient/module/player/InvCleaner.class
+INFO: Copying net/sssssssthedev/SmartClient/module/player/InvMove.class
 INFO: Copying net/sssssssthedev/SmartClient/module/player/NoFall.class
 INFO: Copying net/sssssssthedev/SmartClient/module/render/ClickGUI.class
+INFO: Copying net/sssssssthedev/SmartClient/module/render/ESP.class
 INFO: Copying net/sssssssthedev/SmartClient/module/render/Fullbright.class
+INFO: Copying net/sssssssthedev/SmartClient/module/world/AutoMine.class
+INFO: Copying net/sssssssthedev/SmartClient/module/world/BedFucker.class
+INFO: Copying net/sssssssthedev/SmartClient/module/world/FakeCreative.class
+INFO: Copying net/sssssssthedev/SmartClient/module/world/FastBreak.class
+INFO: Copying net/sssssssthedev/SmartClient/module/world/FastPlace.class
+INFO: Copying net/sssssssthedev/SmartClient/module/world/Nuker.class
+INFO: Copying net/sssssssthedev/SmartClient/module/world/nukerutils/NukerBypassLevel.class
+INFO: Copying net/sssssssthedev/SmartClient/module/world/nukerutils/NukerMode.class
 INFO: Copying net/sssssssthedev/SmartClient/server/ServerDataFeatured.class
 INFO: Copying net/sssssssthedev/SmartClient/settings/Setting.class
 INFO: Copying net/sssssssthedev/SmartClient/settings/SettingsManager.class
+INFO: Copying net/sssssssthedev/SmartClient/task/Task.class
+INFO: Copying net/sssssssthedev/SmartClient/task/TaskFactory.class
+INFO: Copying net/sssssssthedev/SmartClient/task/basic/BasicTask.class
+INFO: Copying net/sssssssthedev/SmartClient/task/basic/BasicTaskFactory.class
+INFO: Copying net/sssssssthedev/SmartClient/task/rotation/RotationTask.class
+INFO: Copying net/sssssssthedev/SmartClient/task/rotation/RotationTaskFactory.class
+INFO: Copying net/sssssssthedev/SmartClient/ui/gui/GuiPortChecker.class
+INFO: Copying net/sssssssthedev/SmartClient/ui/gui/GuiServerFinder$1.class
+INFO: Copying net/sssssssthedev/SmartClient/ui/gui/GuiServerFinder$ServerFinderState.class
+INFO: Copying net/sssssssthedev/SmartClient/ui/gui/GuiServerFinder.class
+INFO: Copying net/sssssssthedev/SmartClient/ui/gui/GuiSessionStealer.class
+INFO: Copying net/sssssssthedev/SmartClient/ui/gui/GuiSubDomain.class
+INFO: Copying net/sssssssthedev/SmartClient/ui/gui/GuiTools.class
+INFO: Copying net/sssssssthedev/SmartClient/ui/gui/GuiUUIDSpoof.class
 INFO: Copying net/sssssssthedev/SmartClient/ui/ingame/CustomIngameGui.class
 INFO: Copying net/sssssssthedev/SmartClient/ui/login/AltLoginThread.class
 INFO: Copying net/sssssssthedev/SmartClient/ui/login/GuiAltLogin.class
 INFO: Copying net/sssssssthedev/SmartClient/ui/login/PasswordField.class
+INFO: Copying net/sssssssthedev/SmartClient/ui/notification/Notification.class
+INFO: Copying net/sssssssthedev/SmartClient/ui/notification/NotificationManager.class
+INFO: Copying net/sssssssthedev/SmartClient/ui/notification/NotificationType.class
 INFO: Copying net/sssssssthedev/SmartClient/utils/ArmorUtils.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/BlockUtil.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/Checker$1.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/Checker.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/ClampedValue.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/ColorUtils.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/EntityUtils.class
 INFO: Copying net/sssssssthedev/SmartClient/utils/HWID.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/JsonUtils.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/ListManager.class
 INFO: Copying net/sssssssthedev/SmartClient/utils/PlayerUtils.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/Random.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/RandomUtils.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/RenderUtils.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/TimeHelper.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/Value.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/ValueManager.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/Wrapper.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/mcping/MinecraftPing.class
+INFO: Copying net/sssssssthedev/SmartClient/utils/mcping/MinecraftPingReply.class
 INFO: Copying optifine/BetterGrass.class
 INFO: Copying optifine/BetterSnow.class
 INFO: Copying optifine/Blender.class

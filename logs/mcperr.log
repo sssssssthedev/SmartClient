@@ -233,3 +233,5 @@
 23:02:44 - !! Can not find server sources, try decompiling !!
 18:32:59 - "scalac" is not found on the PATH.  Scala files will not be recompiled
 18:33:36 - !! Can not find server sources, try decompiling !!
+18:42:56 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+18:43:42 - !! Can not find server md5s !!

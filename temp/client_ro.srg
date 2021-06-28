@@ -21409,8 +21409,8 @@ MD: ek$3/b ()Ljava/lang/Object; net/minecraft/network/NetworkManager$3/load ()Lj
 MD: ek$4/run ()V net/minecraft/network/NetworkManager$4/run ()V
 MD: ek$5/initChannel (Lio/netty/channel/Channel;)V net/minecraft/network/NetworkManager$5/initChannel (Lio/netty/channel/Channel;)V
 MD: ek$6/initChannel (Lio/netty/channel/Channel;)V net/minecraft/network/NetworkManager$6/initChannel (Lio/netty/channel/Channel;)V
-MD: ek$a/a (Lek$a;)Lff; net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener/access$100 (Lnet/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener;)Lnet/minecraft/network/Packet;
-MD: ek$a/b (Lek$a;)[Lio/netty/util/concurrent/GenericFutureListener; net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener/access$200 (Lnet/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener;)[Lio/netty/util/concurrent/GenericFutureListener;
+MD: ek$a/a (Lek$a;)Lff; net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener/access$000 (Lnet/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener;)Lnet/minecraft/network/Packet;
+MD: ek$a/b (Lek$a;)[Lio/netty/util/concurrent/GenericFutureListener; net/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener/access$100 (Lnet/minecraft/network/NetworkManager$InboundHandlerTuplePacketListener;)[Lio/netty/util/concurrent/GenericFutureListener;
 MD: ek/a ()V net/minecraft/network/NetworkManager/processReceivedPackets ()V
 MD: ek/a (I)V net/minecraft/network/NetworkManager/setCompressionTreshold (I)V
 MD: ek/a (Lek;)Lio/netty/channel/Channel; net/minecraft/network/NetworkManager/access$000 (Lnet/minecraft/network/NetworkManager;)Lio/netty/channel/Channel;
