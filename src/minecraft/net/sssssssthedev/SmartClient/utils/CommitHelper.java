@@ -11,7 +11,7 @@ public class CommitHelper {
 
     public String getCommitID() throws IOException {
         ProcessBuilder builder = new ProcessBuilder( "git rev-parse HEAD");
-        builder.directory( new File("C:\\Users\\sssssss\\Downloads\\mcp918\\"));
+        builder.directory(new File(new File("C:\\Users\\sssssss\\Downloads\\mcp918\\README.md").getAbsolutePath()));
         builder.redirectErrorStream(true);
         Process proc = builder.start();
         BufferedReader stdInput = new BufferedReader(new InputStreamReader(proc.getInputStream()));
