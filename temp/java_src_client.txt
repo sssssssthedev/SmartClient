@@ -243,6 +243,7 @@ src\minecraft\net\minecraft\client\gui\GuiOptionsRowList.java
 src\minecraft\net\minecraft\client\gui\GuiOverlayDebug.java
 src\minecraft\net\minecraft\client\gui\GuiPageButtonList.java
 src\minecraft\net\minecraft\client\gui\GuiPlayerTabOverlay.java
+src\minecraft\net\minecraft\client\gui\GuiProtocolSelector.java
 src\minecraft\net\minecraft\client\gui\GuiRenameWorld.java
 src\minecraft\net\minecraft\client\gui\GuiRepair.java
 src\minecraft\net\minecraft\client\gui\GuiResourcePackAvailable.java
@@ -1633,7 +1634,7 @@ src\minecraft\net\sssssssthedev\SmartClient\clickgui\util\ColorUtil.java
 src\minecraft\net\sssssssthedev\SmartClient\clickgui\util\FontUtil.java
 src\minecraft\net\sssssssthedev\SmartClient\command\Command.java
 src\minecraft\net\sssssssthedev\SmartClient\command\CommandManager.java
-src\minecraft\net\sssssssthedev\SmartClient\command\exploits\Test.java
+src\minecraft\net\sssssssthedev\SmartClient\command\exploits\Fawe.java
 src\minecraft\net\sssssssthedev\SmartClient\command\modules\Bind.java
 src\minecraft\net\sssssssthedev\SmartClient\command\modules\Toggle.java
 src\minecraft\net\sssssssthedev\SmartClient\command\other\Help.java
