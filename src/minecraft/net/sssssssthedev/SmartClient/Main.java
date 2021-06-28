@@ -31,7 +31,7 @@ public class Main {
 
     public static Main instance = new Main();
     public static String build = "1.2.1";
-    public static String commit = "";
+    public static String commit = "c98c9a9";
     public static String version = "Production";
     public static SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss");
     public static Date date = new Date(System.currentTimeMillis());
