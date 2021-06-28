@@ -13,6 +13,6 @@ public class CommitHelper {
         Process proc = rt.exec("git rev-parse HEAD");
         BufferedReader stdInput = new BufferedReader(new InputStreamReader(proc.getInputStream()));
         BufferedReader stdError = new BufferedReader(new InputStreamReader(proc.getErrorStream()));
-        return stdInput.readLine().substring(0, 5);
+        return stdInput.readLine().substring(0, 7);
     }
 }
