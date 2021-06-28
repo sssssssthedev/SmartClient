@@ -1,0 +1,102 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 6/28/21 2:45 PM
+Description: Updating screen events
+
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at net.sssssssthedev.SmartClient.command.exploits.Fawe.execute(Fawe.java:29)
+	at net.sssssssthedev.SmartClient.command.CommandManager.execute(CommandManager.java:38)
+	at net.minecraft.client.entity.EntityPlayerSP.sendChatMessage(EntityPlayerSP.java:314)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:485)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:475)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:625)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:576)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1785)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1119)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.sssssssthedev.SmartClient.command.exploits.Fawe.execute(Fawe.java:29)
+	at net.sssssssthedev.SmartClient.command.CommandManager.execute(CommandManager.java:38)
+	at net.minecraft.client.entity.EntityPlayerSP.sendChatMessage(EntityPlayerSP.java:314)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:485)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:475)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:625)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:576)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.GuiChat
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 3 total; [EntityPlayerSP['sssssssthedev'/423599, l='MpServer', x=59.01, y=53.50, z=173.50], EntityOtherPlayerMP['§e§lSHOPS'/453, l='MpServer', x=48.50, y=52.50, z=169.50], EntityOtherPlayerMP['§e§lBANK'/449, l='MpServer', x=63.50, y=52.50, z=195.50]]
+	Chunk stats: MultiplayerChunkCache: 225, 225
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: 58.00,53.00,173.00 - World: (58,53,173), Chunk: (at 10,3,13 in 3,10; contains blocks 48,0,160 to 63,255,175), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 180846 game time, 720000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 48 total; [EntityOtherPlayerMP['§e§lBANK'/449, l='MpServer', x=63.50, y=52.50, z=195.50], EntityVillager['§e§lCASINO'/452, l='MpServer', x=45.50, y=52.50, z=194.50], EntityOtherPlayerMP['§e§lSHOPS'/453, l='MpServer', x=48.50, y=52.50, z=169.50], EntityArmorStand['§a§lC§2§lr§a§laftMC.pro §2§l» §a§lModern Survival'/389, l='MpServer', x=58.50, y=56.63, z=179.63], EntityArmorStand['Armor Stand'/390, l='MpServer', x=58.50, y=56.38, z=179.63], EntityArmorStand['§aBun venit pe server, §fsssssssthedev§a!'/391, l='MpServer', x=58.50, y=56.13, z=179.63], EntityArmorStand['Armor Stand'/392, l='MpServer', x=58.50, y=55.88, z=179.63], EntityArmorStand['§aNe bucuram nespus de mult ca ai'/393, l='MpServer', x=58.50, y=55.63, z=179.63], EntityArmorStand['§aales server-ul nostru!'/394, l='MpServer', x=58.50, y=55.38, z=179.63], EntityArmorStand['Armor Stand'/395, l='MpServer', x=58.50, y=55.13, z=179.63], EntityArmorStand['§aIncepe-ti aventura'/396, l='MpServer', x=58.50, y=54.88, z=179.63], EntityArmorStand['§ateleportandu-te aleatoriu'/397, l='MpServer', x=58.50, y=54.63, z=179.63], EntityArmorStand['§ape mapa si arata-le celorlalti'/398, l='MpServer', x=58.50, y=54.38, z=179.63], EntityArmorStand['§acat esti de creativ!'/399, l='MpServer', x=58.50, y=54.13, z=179.63], EntityArmorStand['Armor Stand'/400, l='MpServer', x=58.50, y=53.88, z=179.63], EntityWither['§a§lModern Survival §7- §2§lstore.craftmc.pro'/2147473647, l='MpServer', x=59.38, y=53.88, z=221.47], EntityArmorStand['§a§oNe poti sustine proiectul donand'/401, l='MpServer', x=58.50, y=53.63, z=179.63], EntityArmorStand['§a§oin schimbul unor beneficii in-game!'/402, l='MpServer', x=58.50, y=53.38, z=179.63], EntityArmorStand['§a§ostore.craftmc.pro'/403, l='MpServer', x=58.50, y=53.13, z=179.63], EntityArmorStand['Armor Stand'/404, l='MpServer', x=58.50, y=52.88, z=179.63], EntityArmorStand['§aSunt §f23 §ajucatori conectati!'/405, l='MpServer', x=58.50, y=52.63, z=179.63], EntityArmorStand['Armor Stand'/406, l='MpServer', x=58.50, y=52.38, z=179.63], EntityArmorStand['§7§m----------------------'/407, l='MpServer', x=58.50, y=52.13, z=179.63], EntityArmorStand['§f§l§nLIFT'/408, l='MpServer', x=38.50, y=54.56, z=214.50], EntityArmorStand['§aPoti sa contruiesti un lift'/409, l='MpServer', x=38.50, y=54.31, z=214.50], EntityArmorStand['§a pentru a te teleporta usor sus/jos'/410, l='MpServer', x=38.50, y=54.06, z=214.50], EntityPlayerSP['sssssssthedev'/423599, l='MpServer', x=59.01, y=53.50, z=173.50], EntityArmorStand['§a Acesta se contruieste'/411, l='MpServer', x=38.50, y=53.81, z=214.50], EntityArmorStand['§a cu un block de redstone si unul de iron sus'/412, l='MpServer', x=38.50, y=53.56, z=214.50], EntityOtherPlayerMP['§e§lSHOPS'/453, l='MpServer', x=48.50, y=52.50, z=169.50], EntityArmorStand['§e Inaltimea maxima este §c§l15'/413, l='MpServer', x=38.50, y=53.31, z=214.50], EntityArmorStand['§oArunca-te'/414, l='MpServer', x=72.50, y=53.47, z=195.50], EntityArmorStand['§opentru a incepe'/415, l='MpServer', x=72.50, y=53.22, z=195.50], EntityArmorStand['§a§o aventura ta...'/416, l='MpServer', x=72.50, y=52.97, z=195.50], EntityArmorStand['§c§l§nCRATES'/417, l='MpServer', x=26.50, y=71.47, z=146.50], EntityArmorStand['§aCastiga Key'/418, l='MpServer', x=26.50, y=71.22, z=146.50], EntityArmorStand['§apentru premii uimitoare!'/419, l='MpServer', x=26.50, y=70.97, z=146.50], EntityArmorStand['Armor Stand'/356, l='MpServer', x=56.19, y=45.00, z=174.41], EntityArmorStand['§c Votand: §f/vote'/420, l='MpServer', x=26.50, y=70.72, z=146.50], EntityArmorStand['§c Donand: §f/store'/421, l='MpServer', x=26.50, y=70.47, z=146.50], EntityArmorStand['§c Event §fCraftMc.pro'/422, l='MpServer', x=26.50, y=70.22, z=146.50], EntityOtherPlayerMP['§e§lBANK'/449, l='MpServer', x=63.50, y=52.50, z=195.50], EntityArmorStand['§cMythic §aCrate'/438, l='MpServer', x=33.81, y=69.47, z=146.50], EntityArmorStand['§cSpawner §aCrate'/439, l='MpServer', x=33.50, y=69.47, z=150.50], EntityArmorStand['§cRare §aCrate'/440, l='MpServer', x=32.50, y=69.47, z=154.50], EntityArmorStand['§cEvent §aCrate'/441, l='MpServer', x=28.50, y=69.47, z=156.50], EntityArmorStand['§cVote §aCrate'/442, l='MpServer', x=24.50, y=69.47, z=157.50], EntityArmorStand['§cLegendary §aCrate'/443, l='MpServer', x=20.50, y=69.47, z=157.50]]
+	Retry entities: 0 total; []
+	Server brand: Waterfall <- Airplane
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:401)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2762)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:450)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	CPU: 12x AMD Ryzen 5 2600 Six-Core Processor 
+	Java Version: 1.8.0_271, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 384670912 bytes (366 MB) / 785383424 bytes (749 MB) up to 1895825408 bytes (1808 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Radeon RX 580 Series GL version 4.6.148202 Compatibility Profile Context 21.3.2 27.20.15003.5017, ATI Technologies Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 12x AMD Ryzen 5 2600 Six-Core Processor 
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.148202 Compatibility Profile Context 21.3.2 27.20.15003.5017
+	OpenGlRenderer: Radeon RX 580 Series
+	OpenGlVendor: ATI Technologies Inc.
+	CpuCount: 12

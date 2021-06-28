@@ -1,0 +1,6 @@
+src\minecraft\net\sssssssthedev\SmartClient\module\crasher\Food.java:33: warning: [deprecation] stop() in Thread has been deprecated
+        this.t.stop();
+              ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="vecmath-1.5.2">
+    <CLASSES>
+      <root url="jar://$MCP_LOC$/lib/vecmath-1.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

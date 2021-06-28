@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ViaSnakeYaml-1.27">
+    <CLASSES>
+      <root url="jar://$MCP_LOC$/lib/ViaSnakeYaml-1.27.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

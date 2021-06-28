@@ -1,0 +1,77 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 6/28/21 2:07 PM
+Description: Initializing game
+
+java.lang.NullPointerException: Initializing game
+	at java.util.concurrent.CompletableFuture.screenExecutor(CompletableFuture.java:415)
+	at java.util.concurrent.CompletableFuture.runAsync(CompletableFuture.java:1871)
+	at de.enzaxd.viaforge.platform.VRPlatform.runAsync(VRPlatform.java:69)
+	at de.enzaxd.viaforge.platform.VRPlatform.runAsync(VRPlatform.java:27)
+	at com.viaversion.viaversion.update.UpdateUtil.sendUpdateMessage(UpdateUtil.java:52)
+	at com.viaversion.viaversion.ViaManagerImpl.init(ViaManagerImpl.java:81)
+	at de.enzaxd.viaforge.ViaForge.start(ViaForge.java:65)
+	at net.sssssssthedev.SmartClient.Main.loadClient(Main.java:78)
+	at net.minecraft.client.Minecraft.createDisplay(Minecraft.java:638)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:491)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:409)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at java.util.concurrent.CompletableFuture.screenExecutor(CompletableFuture.java:415)
+	at java.util.concurrent.CompletableFuture.runAsync(CompletableFuture.java:1871)
+	at de.enzaxd.viaforge.platform.VRPlatform.runAsync(VRPlatform.java:69)
+	at de.enzaxd.viaforge.platform.VRPlatform.runAsync(VRPlatform.java:27)
+	at com.viaversion.viaversion.update.UpdateUtil.sendUpdateMessage(UpdateUtil.java:52)
+	at com.viaversion.viaversion.ViaManagerImpl.init(ViaManagerImpl.java:81)
+	at de.enzaxd.viaforge.ViaForge.start(ViaForge.java:65)
+	at net.sssssssthedev.SmartClient.Main.loadClient(Main.java:78)
+	at net.minecraft.client.Minecraft.createDisplay(Minecraft.java:638)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:491)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.run(Minecraft.java:409)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	CPU: <unknown>
+	Java Version: 1.8.0_271, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 104854544 bytes (99 MB) / 195035136 bytes (186 MB) up to 1895825408 bytes (1808 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	GL Caps: 
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: ~~ERROR~~ NullPointerException: null
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: null
+	OpenGlRenderer: null
+	OpenGlVendor: null
+	CpuCount: 12

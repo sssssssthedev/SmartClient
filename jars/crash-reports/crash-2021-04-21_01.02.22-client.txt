@@ -1,0 +1,102 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 4/21/21 1:02 AM
+Description: Updating screen events
+
+java.lang.NullPointerException: Updating screen events
+	at net.sssssssthedev.SmartClient.command.modules.Toggle.execute(Toggle.java:16)
+	at net.sssssssthedev.SmartClient.command.CommandManager.execute(CommandManager.java:37)
+	at net.minecraft.client.entity.EntityPlayerSP.sendChatMessage(EntityPlayerSP.java:314)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:485)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:475)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:625)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:576)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1792)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1119)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.sssssssthedev.SmartClient.command.modules.Toggle.execute(Toggle.java:16)
+	at net.sssssssthedev.SmartClient.command.CommandManager.execute(CommandManager.java:37)
+	at net.minecraft.client.entity.EntityPlayerSP.sendChatMessage(EntityPlayerSP.java:314)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:485)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:475)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:625)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:576)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.GuiChat
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['sssssssthedev'/22123, l='MpServer', x=220.79, y=13.00, z=-494.95]]
+	Chunk stats: MultiplayerChunkCache: 169, 169
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 126.00,23.00,-498.00 - World: (126,23,-498), Chunk: (at 14,1,14 in 7,-32; contains blocks 112,0,-512 to 127,255,-497), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Level time: 533192224 game time, 894000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 30 total; [EntityPlayerSP['sssssssthedev'/22123, l='MpServer', x=220.79, y=13.00, z=-494.95], EntityItemFrame['entity.ItemFrame.name'/0, l='MpServer', x=194.50, y=23.50, z=-491.03], EntityWither['§b§lPLAY.ADDICTED2.RO §f➧ §f§lBACK TO SCHOOL'/1, l='MpServer', x=245.72, y=13.16, z=-493.91], EntityWither['§b* §fwww.addicted2.ro§3/§fstore.addicted2.ro§3/§fwww.addicted2.ro/dsc §b*'/2, l='MpServer', x=245.72, y=13.16, z=-493.91], EntityOtherPlayerMP['Tud_MC'/19771, l='MpServer', x=126.88, y=23.00, z=-497.19], EntityArmorStand['§b§lTOKENS SYSTEM'/14, l='MpServer', x=167.63, y=16.50, z=-493.53], EntityArmorStand['§7(moneda globala a serverului)'/15, l='MpServer', x=167.63, y=16.25, z=-493.53], EntityArmorStand['§f'/16, l='MpServer', x=167.63, y=16.00, z=-493.53], EntityArmorStand['§fFolosind aceasta moneda'/17, l='MpServer', x=167.63, y=15.75, z=-493.53], EntityArmorStand['§fpoti cumpara diferite chestii'/18, l='MpServer', x=167.63, y=15.50, z=-493.53], EntityArmorStand['§fde la anumite shopuri de pe sectiuni'/19, l='MpServer', x=167.63, y=15.25, z=-493.53], EntityArmorStand['§f'/20, l='MpServer', x=167.63, y=15.00, z=-493.53], EntityArmorStand['§bCe pot cumpara?'/21, l='MpServer', x=167.63, y=14.75, z=-493.53], EntityArmorStand['§fGrade, Crate Keys, Diferite comenzi, Bani'/22, l='MpServer', x=167.63, y=14.50, z=-493.53], EntityArmorStand['§f'/23, l='MpServer', x=167.63, y=14.25, z=-493.53], EntityArmorStand['§bCum obtin tokens?'/24, l='MpServer', x=167.63, y=14.00, z=-493.53], EntityArmorStand['§fCrate-uri, Event, /vote'/25, l='MpServer', x=167.63, y=13.75, z=-493.53], EntityArmorStand['§fsau BedWars si SkyWars (castigand meciuri si facand killuri)'/26, l='MpServer', x=167.63, y=13.50, z=-493.53], EntityArmorStand['§b§lTOKENS'/27, l='MpServer', x=163.44, y=17.13, z=-505.56], EntityArmorStand['§f'/28, l='MpServer', x=163.44, y=16.88, z=-505.56], EntityArmorStand['§fVrei sa vezi cate chei ai?'/29, l='MpServer', x=163.44, y=16.63, z=-505.56], EntityArmorStand['§3§lCLICK STANGA'/30, l='MpServer', x=163.44, y=16.38, z=-505.56], EntityArmorStand['§b§lMYSTERY BOX'/31, l='MpServer', x=166.47, y=16.84, z=-499.59], EntityArmorStand['§7(castiga premii gratis)'/32, l='MpServer', x=166.47, y=16.59, z=-499.59], EntityArmorStand['§f'/33, l='MpServer', x=166.47, y=16.34, z=-499.59], EntityArmorStand['§fVoteaza serverul zilnic'/34, l='MpServer', x=166.47, y=16.09, z=-499.59], EntityArmorStand['§fpentru a primi o cheie'/35, l='MpServer', x=166.47, y=15.84, z=-499.59], EntityArmorStand['§f'/36, l='MpServer', x=166.47, y=15.59, z=-499.59], EntityArmorStand['§3§lCLICK DREAPTA'/37, l='MpServer', x=166.47, y=15.34, z=-499.59], EntityOtherPlayerMP['hyushi123'/22125, l='MpServer', x=126.88, y=23.00, z=-497.19]]
+	Retry entities: 0 total; []
+	Server brand: Waterfall <- PaperSpigot
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:401)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2769)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:450)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	CPU: 12x AMD Ryzen 5 2600 Six-Core Processor 
+	Java Version: 1.8.0_271, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 525085072 bytes (500 MB) / 715653120 bytes (682 MB) up to 1895825408 bytes (1808 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Radeon RX 580 Series GL version 4.6.148202 Compatibility Profile Context 21.3.2 27.20.15003.5017, ATI Technologies Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 12x AMD Ryzen 5 2600 Six-Core Processor 
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.148202 Compatibility Profile Context 21.3.2 27.20.15003.5017
+	OpenGlRenderer: Radeon RX 580 Series
+	OpenGlVendor: ATI Technologies Inc.
+	CpuCount: 12

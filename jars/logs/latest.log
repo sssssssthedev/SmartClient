@@ -1,0 +1,2549 @@
+[14:52:14] [Client thread/INFO]: Setting user: sssssssthedev
+[14:52:14] [Client thread/INFO]: (Session ID is token:0:sssssssthedev)
+[14:52:15] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.Attributes
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkWatchEvent$UnWatch
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.relauncher.CoreModManager
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.DimensionManager
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Pre
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Post
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$CameraSetup
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$FogColors
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.EventBus
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event$Result
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.ExtendedBlockState
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.FMLClientHandler
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.FMLCommonHandler
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.biome.BiomeGenBase.getWaterColorMultiplier
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addDestroyEffects
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addHitEffects
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canCreatureSpawn
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canRenderInLayer
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.doesSideBlockRendering
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getBedDirection
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getExtendedState
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.hasTileEntity
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isAir
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBed
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBedFoot
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isSideSolid
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.canRiderInteract
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.captureDrops
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.capturedDrops
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRenderInPass
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRiderSit
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.ForgeEventFactory
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeHooks
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ForgeHooksClient
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getDurabilityForDisplay
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getModel
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.onEntitySwing
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.shouldCauseReequipAnimation
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.showDurabilityBar
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.ItemRecord.getRecordResource
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeModContainer
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.potion.PotionEffect.isCurativeItem
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.canRenderBreaking
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.getRenderBoundingBox
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.hasFastRenderer
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.shouldRenderInPass
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.preDrawBatch
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.drawBatch
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.preDraw
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.postDraw
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.countEntities
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.getPerWorldStorage
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getCloudRenderer
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getSkyRenderer
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getWeatherRenderer
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.GuiModList
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IColoredBakedQuad
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.IExtendedBlockState
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.IRenderHandler
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ISmartBlockModel
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ItemModelMesherForge
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.LightUtil
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.MinecraftForge
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.MinecraftForgeClient
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ModelLoader
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderBlockOverlayEvent$OverlayType
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.registry.RenderingRegistry
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderItemInFrameEvent
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Pre
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Post
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Pre
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Post
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.SplashProgress
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.WorldEvent$Load
+[14:52:15] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[14:52:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: optifine.OptiFineClassTransformer
+[14:52:15] [Client thread/INFO]: LWJGL Version: 2.9.4
+[14:52:15] [Via-Mappingloader-0/INFO]: Loading 1.12 -> 1.13 mappings...
+[14:52:15] [Via-Mappingloader-1/INFO]: Loading 1.13 -> 1.13.2 mappings...
+[14:52:15] [Via-Mappingloader-2/INFO]: Loading 1.13.2 -> 1.14 mappings...
+[14:52:15] [Via-Mappingloader-3/INFO]: Loading 1.14 -> 1.15 mappings...
+[14:52:16] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[14:52:16] [Via-Mappingloader-4/INFO]: Loading 1.15 -> 1.16 mappings...
+[14:52:16] [Via-Mappingloader-3/INFO]: Loading 1.16 -> 1.16.2 mappings...
+[14:52:16] [Via-Mappingloader-3/INFO]: Loading 1.16.2 -> 1.17 mappings...
+[14:52:16] [Client thread/INFO]: Loading translations...
+[14:52:16] [Via-Mappingloader-4/INFO]: Loading 1.10 -> 1.9.4 mappings...
+[14:52:16] [Via-Mappingloader-3/INFO]: Loading 1.11 -> 1.10 mappings...
+[14:52:16] [Via-Mappingloader-0/INFO]: Loading 1.13 -> 1.12 mappings...
+[14:52:16] [Via-Mappingloader-3/INFO]: Loading 1.13.2 -> 1.13 mappings...
+[14:52:16] [Via-Mappingloader-3/INFO]: Loading 1.14 -> 1.13.2 mappings...
+[14:52:16] [Via-Mappingloader-0/INFO]: Loading 1.15 -> 1.14 mappings...
+[14:52:16] [Via-Mappingloader-0/INFO]: Loading 1.16 -> 1.15 mappings...
+[14:52:16] [Via-Mappingloader-3/INFO]: Loading 1.16.2 -> 1.16 mappings...
+[14:52:16] [Via-Mappingloader-3/INFO]: Loading 1.17 -> 1.16.2 mappings...
+[14:52:16] [ViaForge-0/INFO]: ViaVersion detected server version: 1.8.x (47)
+[14:52:16] [ViaForge-0/WARN]: This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[14:52:16] [ViaForge-0/WARN]: You are running an outdated Java version, please consider updating it to at least Java 16 (your version is 1.8.0_271). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[14:52:16] [ViaForge-0/INFO]: Finished mapping loading, shutting down loader executor!
+[14:52:17] [Client thread/INFO]: [OptiFine] 
+[14:52:17] [Client thread/INFO]: [OptiFine] OptiFine_1.8.8_HD_U_H8
+[14:52:17] [Client thread/INFO]: [OptiFine] Build: null
+[14:52:17] [Client thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[14:52:17] [Client thread/INFO]: [OptiFine] Java: 1.8.0_271, Oracle Corporation
+[14:52:17] [Client thread/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[14:52:17] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
+[14:52:17] [Client thread/INFO]: [OptiFine] OpenGL: Radeon RX 580 Series, version 4.6.148202 Compatibility Profile Context 21.3.2 27.20.15003.5017, ATI Technologies Inc.
+[14:52:17] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.148202
+[14:52:17] [Client thread/INFO]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[14:52:17] [Client thread/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[14:52:17] [Thread-7/INFO]: [OptiFine] Checking for new version
+[14:52:17] [Client thread/INFO]: [Shaders] ShadersMod version: 2.4.12
+[14:52:17] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.148202 Compatibility Profile Context 21.3.2 27.20.15003.5017
+[14:52:17] [Client thread/INFO]: [Shaders] Vendor:  ATI Technologies Inc.
+[14:52:17] [Client thread/INFO]: [Shaders] Renderer: Radeon RX 580 Series
+[14:52:17] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[14:52:17] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[14:52:17] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[14:52:17] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[14:52:17] [Client thread/INFO]: [Shaders] Load ShadersMod configuration.
+[14:52:17] [Client thread/INFO]: [Shaders] Save ShadersMod configuration.
+[14:52:17] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[14:52:17] [Client thread/INFO]: Reloading ResourceManager: Default
+[14:52:17] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[14:52:17] [Client thread/INFO]: [OptiFine] Resource packs: Default
+[14:52:17] [Thread-7/INFO]: [OptiFine] Version found: I7
+[14:52:17] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:52:17] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[14:52:17] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:52:17] [Thread-9/INFO]: OpenAL initialized.
+[14:52:18] [Sound Library Loader/INFO]: Sound engine started
+[14:52:19] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
+[14:52:19] [Client thread/INFO]: [OptiFine] Multitexture: false
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[14:52:19] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[14:52:19] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:52:20] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[14:52:20] [Client thread/INFO]: [OptiFine] Enable face culling: acacia_leaves, birch_leaves, dark_oak_leaves, jungle_leaves, oak_leaves, spruce_leaves
+[14:52:40] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[14:52:41] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
+[14:52:41] [Client thread/INFO]: [CHAT] + sssssssthedev s-a conectat
+[14:52:41] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[14:52:41] [Client thread/INFO]: [CHAT] 
+[14:52:41] [Client thread/INFO]: [CHAT]     Bine ai venit, sssssssthedev pe server!
+[14:52:41] [Client thread/INFO]: [CHAT] 
+[14:52:41] [Client thread/INFO]: [CHAT]   FORUM forum.craftmc.pro
+[14:52:41] [Client thread/INFO]: [CHAT]   STORE store.craftmc.pro
+[14:52:41] [Client thread/INFO]: [CHAT]   DISCORD discord.me/craftmc
+[14:52:41] [Client thread/INFO]: [CHAT] 
+[14:52:41] [Client thread/INFO]: [CHAT]          Te joci pe mc.craftmc.pro
+[14:52:41] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[14:52:41] [Client thread/INFO]: [CHAT] [CraftMC] » Sesiune reusita.
+[14:52:41] [Client thread/INFO]: [CHAT] [CraftMC] » Te-ai autentificat cu succes.
+[14:52:49] [Client thread/INFO]: [CHAT] + george0711 s-a conectat
+[14:52:49] [Client thread/INFO]: [CHAT] + Proleoncom s-a conectat
+[14:52:50] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Sending packets §8(§fFAWE§8) §8[§f1000§8]
+[14:52:50] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Packets has been sent §8(§f4ms§8)
+[14:53:41] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[14:54:24] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[14:54:34] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[14:54:43] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[14:55:13] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[14:55:37] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[14:55:48] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[14:55:57] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[14:56:04] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[14:56:05] [Client thread/ERROR]: Can't ping play.sssssss.dev: Disconnected
+[15:43:31] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[15:43:32] [Client thread/INFO]: [CHAT] + sssssssthedev s-a conectat
+[15:43:32] [Client thread/INFO]: [CHAT] [CraftMC] » Sesiune reusita.
+[15:43:32] [Client thread/INFO]: [CHAT] [CraftMC] » Te-ai autentificat cu succes.
+[15:43:32] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[15:43:32] [Client thread/INFO]: [CHAT] 
+[15:43:32] [Client thread/INFO]: [CHAT]     Bine ai venit, sssssssthedev pe server!
+[15:43:32] [Client thread/INFO]: [CHAT] 
+[15:43:32] [Client thread/INFO]: [CHAT]   FORUM forum.craftmc.pro
+[15:43:32] [Client thread/INFO]: [CHAT]   STORE store.craftmc.pro
+[15:43:32] [Client thread/INFO]: [CHAT]   DISCORD discord.me/craftmc
+[15:43:32] [Client thread/INFO]: [CHAT] 
+[15:43:32] [Client thread/INFO]: [CHAT]          Te joci pe mc.craftmc.pro
+[15:43:32] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[15:43:33] [Client thread/INFO]: [CHAT] 
+[15:43:33] [Client thread/INFO]: [CHAT] Te joci pe mc.craftmc.pro
+[15:43:33] [Client thread/INFO]: [CHAT] 
+[15:43:33] [Client thread/INFO]: [CHAT] Forum: forum.craftmc.pro
+[15:43:33] [Client thread/INFO]: [CHAT] Store: store.craftmc.pro
+[15:43:33] [Client thread/INFO]: [CHAT] Discord: discord.me/craftmc
+[15:43:33] [Client thread/INFO]: [CHAT] 
+[15:43:36] [Client thread/INFO]: [CHAT] Te conectezi pe BedWars...
+[15:43:36] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:43:36] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:43:36] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:43:36] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:43:39] [Client thread/INFO]: [CHAT] (FAWE) Usage: /targetoffset [mask]
+Description: Set the targeting mask
+[15:43:39] [Client thread/INFO]: [CHAT] Too few parameters!
+[15:43:52] [Client thread/INFO]: [CHAT] + sssssssthedev s-a conectat
+[15:43:53] [Client thread/INFO]: [CHAT] [CraftMC] » Sesiune reusita.
+[15:43:53] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[15:43:53] [Client thread/INFO]: [CHAT] 
+[15:43:53] [Client thread/INFO]: [CHAT]     Bine ai venit, sssssssthedev pe server!
+[15:43:53] [Client thread/INFO]: [CHAT] 
+[15:43:53] [Client thread/INFO]: [CHAT]   FORUM forum.craftmc.pro
+[15:43:53] [Client thread/INFO]: [CHAT]   STORE store.craftmc.pro
+[15:43:53] [Client thread/INFO]: [CHAT]   DISCORD discord.me/craftmc
+[15:43:53] [Client thread/INFO]: [CHAT] 
+[15:43:53] [Client thread/INFO]: [CHAT]          Te joci pe mc.craftmc.pro
+[15:43:53] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[15:43:53] [Client thread/INFO]: [CHAT] [CraftMC] » Te-ai autentificat cu succes.
+[15:43:53] [Client thread/INFO]: [CHAT] [CraftMC] » Te-ai autentificat cu succes.
+[15:44:02] [Client thread/INFO]: [CHAT] Te conectezi pe Prison...
+[15:44:03] [Client thread/INFO]: [CHAT]  Fly ► You've received 2h of free flight time for joining the server! Fly with /tf.
+[15:44:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:44:03] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:44:03] [Client thread/INFO]: [CHAT] [+] sssssssthedev
+[15:44:03] [Client thread/INFO]: [CHAT]  PRISON » Bun venit sssssssthedev pe server! (#2,342) 
+[15:44:06] [Client thread/INFO]: [CHAT] [CraftMC] Comanda executata nu exista!
+[15:44:07] [Client thread/INFO]: [CHAT] [CraftMC] Comanda executata nu exista!
+[15:44:07] [Client thread/INFO]: [CHAT]  [!] Tine cursorul pe acest text pentru a vedea cuvantul!
+[15:44:07] [Client thread/INFO]: [CHAT]                                        
+[15:44:07] [Client thread/INFO]: [CHAT]                         [▶] VOTING SYSTEM [◀]
+[15:44:07] [Client thread/INFO]: [CHAT]                                        
+[15:44:07] [Client thread/INFO]: [CHAT]          Voteaza-ne zilnic pentru premii si recompense!
+[15:44:07] [Client thread/INFO]: [CHAT]                                        
+[15:44:07] [Client thread/INFO]: [CHAT]                         store.craftmc.pro/vote
+[15:44:07] [Client thread/INFO]: [CHAT]                                        
+[15:44:08] [Client thread/INFO]: [CHAT] (FAWE) Help: page 1/1
+/worldedit changelog - View the FAWE changelog
+/worldedit cui - Complete CUI handshake (internal usage)
+/worldedit debugpaste - Upload latest.log, config.yml and your message.yml to https://athion.net/ISPaster/paste
+/worldedit help - Displays help for FAWE commands
+/worldedit reload - Reload configuration
+/worldedit threads - Print all thread stacks
+/worldedit tz - Set your timezone for snapshots
+/worldedit update - Update the plugin
+/worldedit version - Get WorldEdit/FAWE version
+ - | - 
+[15:44:08] [Client thread/INFO]: [CHAT] Please choose a sub-command.
+[15:44:09] [Client thread/INFO]: [CHAT]  Beta 2 AfronieAndrei » H
+[15:44:11] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Sending packets §8(§fFAWE§8) §8[§f1000§8]
+[15:44:11] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Packets has been sent §8(§f1ms§8)
+[15:44:12] [Client thread/INFO]: [CHAT]  Beta 2 AfronieAndrei » Roman?
+[15:44:17] [Client thread/INFO]: [CHAT] + sssssssthedev s-a conectat
+[15:44:18] [Client thread/INFO]: [CHAT] [CraftMC] » Sesiune reusita.
+[15:44:18] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[15:44:18] [Client thread/INFO]: [CHAT] 
+[15:44:18] [Client thread/INFO]: [CHAT]     Bine ai venit, sssssssthedev pe server!
+[15:44:18] [Client thread/INFO]: [CHAT] 
+[15:44:18] [Client thread/INFO]: [CHAT]   FORUM forum.craftmc.pro
+[15:44:18] [Client thread/INFO]: [CHAT]   STORE store.craftmc.pro
+[15:44:18] [Client thread/INFO]: [CHAT]   DISCORD discord.me/craftmc
+[15:44:18] [Client thread/INFO]: [CHAT] 
+[15:44:18] [Client thread/INFO]: [CHAT]          Te joci pe mc.craftmc.pro
+[15:44:18] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[15:44:18] [Client thread/INFO]: [CHAT] [CraftMC] » Te-ai autentificat cu succes.
+[15:44:18] [Client thread/INFO]: [CHAT] [CraftMC] » Te-ai autentificat cu succes.
+[15:44:18] [Client thread/INFO]: [CHAT] + TheEduard705 s-a conectat
+[15:44:18] [Client thread/INFO]: [CHAT] - TheEduard705 s-a deconectat
+[15:44:18] [Client thread/INFO]: [CHAT] + alex s-a conectat
+[15:44:31] [Client thread/INFO]: [CHAT] Te conectezi pe SkyWars...
+[15:44:31] [Client thread/INFO]: [CHAT] [CraftMC] Ai intrat in lobby!
+[15:44:31] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:44:31] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:44:31] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:44:31] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:44:31] [Netty Client IO #0/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[15:44:31] [Netty Client IO #0/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[15:44:31] [Netty Client IO #0/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[15:44:31] [Netty Client IO #0/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[15:44:32] [Netty Client IO #0/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[15:44:32] [Netty Client IO #0/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[15:44:32] [Netty Client IO #0/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[15:44:32] [Netty Client IO #0/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[15:44:33] [Client thread/INFO]: [CHAT] [CraftMC] Nu poti folosi aceasta comanda in timpul jocului!
+[15:44:33] [Client thread/INFO]: [CHAT] [CraftMC] Nu poti folosi aceasta comanda in timpul jocului!
+[15:44:34] [Netty Client IO #0/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[15:44:34] [Client thread/INFO]: [CHAT] [CraftMC] Nu poti folosi aceasta comanda in timpul jocului!
+[15:44:35] [Client thread/INFO]: [CHAT] [CraftMC] Nu poti folosi aceasta comanda in timpul jocului!
+[15:44:35] [Client thread/INFO]: [CHAT] [CraftMC] Nu poti folosi aceasta comanda in timpul jocului!
+[15:44:35] [Netty Client IO #0/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[15:44:37] [Client thread/INFO]: [CHAT] [CraftMC] Ai iesit din lobby!
+[15:44:38] [Client thread/INFO]: [CHAT] + sssssssthedev s-a conectat
+[15:44:38] [Chunk Batcher 0/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
+[15:44:38] [Chunk Batcher 0/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
+[15:44:38] [Chunk Batcher 0/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
+[15:44:38] [Chunk Batcher 0/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
+[15:44:38] [Chunk Batcher 0/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
+[15:44:38] [Chunk Batcher 0/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
+[15:44:38] [Client thread/INFO]: [CHAT] [CraftMC] » Te-ai autentificat cu succes.
+[15:44:38] [Client thread/INFO]: [CHAT] [CraftMC] » Sesiune reusita.
+[15:44:38] [Client thread/INFO]: [CHAT] [CraftMC] » Esti deja autentificat.
+[15:44:38] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[15:44:38] [Client thread/INFO]: [CHAT] 
+[15:44:38] [Client thread/INFO]: [CHAT]     Bine ai venit, sssssssthedev pe server!
+[15:44:38] [Client thread/INFO]: [CHAT] 
+[15:44:38] [Client thread/INFO]: [CHAT]   FORUM forum.craftmc.pro
+[15:44:38] [Client thread/INFO]: [CHAT]   STORE store.craftmc.pro
+[15:44:38] [Client thread/INFO]: [CHAT]   DISCORD discord.me/craftmc
+[15:44:38] [Client thread/INFO]: [CHAT] 
+[15:44:38] [Client thread/INFO]: [CHAT]          Te joci pe mc.craftmc.pro
+[15:44:38] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[15:44:38] [Client thread/INFO]: [CHAT] Hey! Sorry, but you can't use that here.
+[15:44:39] [Client thread/INFO]: [CHAT] Hey! Sorry, but you can't use that here.
+[15:44:41] [Client thread/INFO]: [CHAT] + ImagineBreaker s-a conectat
+[15:44:44] [Client thread/INFO]: [CHAT] Te conectezi pe BedWars...
+[15:44:45] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:44:45] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:44:45] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:44:45] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[15:44:47] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Sending packets §8(§fFAWE§8) §8[§f1000§8]
+[15:44:47] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Packets has been sent §8(§f1ms§8)
+[15:45:02] [Client thread/INFO]: [CHAT] + sssssssthedev s-a conectat
+[15:45:02] [Client thread/INFO]: [CHAT] [CraftMC] » Sesiune reusita.
+[15:45:02] [Client thread/INFO]: [CHAT] [CraftMC] » Te-ai autentificat cu succes.
+[15:45:02] [Client thread/INFO]: [CHAT] [CraftMC] » Esti deja autentificat.
+[15:45:02] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[15:45:02] [Client thread/INFO]: [CHAT] 
+[15:45:02] [Client thread/INFO]: [CHAT]     Bine ai venit, sssssssthedev pe server!
+[15:45:02] [Client thread/INFO]: [CHAT] 
+[15:45:02] [Client thread/INFO]: [CHAT]   FORUM forum.craftmc.pro
+[15:45:02] [Client thread/INFO]: [CHAT]   STORE store.craftmc.pro
+[15:45:02] [Client thread/INFO]: [CHAT]   DISCORD discord.me/craftmc
+[15:45:02] [Client thread/INFO]: [CHAT] 
+[15:45:02] [Client thread/INFO]: [CHAT]          Te joci pe mc.craftmc.pro
+[15:45:02] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[15:45:03] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Sending packets §8(§fFAWE§8) §8[§f1000§8]
+[15:45:03] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Packets has been sent §8(§f1ms§8)
+[15:45:09] [Client thread/ERROR]: Can't ping play.sssssss.dev: Disconnected
+[16:57:05] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[16:57:08] [Client thread/INFO]: [CHAT] + sssssssthedev s-a conectat
+[16:57:09] [Client thread/INFO]: [CHAT] + AGENTMATE000 s-a conectat
+[16:57:09] [Client thread/INFO]: [CHAT] [CraftMC] » Sesiune reusita.
+[16:57:09] [Client thread/INFO]: [CHAT] [CraftMC] » Te-ai autentificat cu succes.
+[16:57:09] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[16:57:09] [Client thread/INFO]: [CHAT] 
+[16:57:09] [Client thread/INFO]: [CHAT]     Bine ai venit, sssssssthedev pe server!
+[16:57:09] [Client thread/INFO]: [CHAT] 
+[16:57:09] [Client thread/INFO]: [CHAT]   FORUM forum.craftmc.pro
+[16:57:09] [Client thread/INFO]: [CHAT]   STORE store.craftmc.pro
+[16:57:09] [Client thread/INFO]: [CHAT]   DISCORD discord.me/craftmc
+[16:57:09] [Client thread/INFO]: [CHAT] 
+[16:57:09] [Client thread/INFO]: [CHAT]          Te joci pe mc.craftmc.pro
+[16:57:09] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[16:57:09] [Client thread/INFO]: [CHAT] - scuid s-a deconectat
+[16:57:09] [Client thread/INFO]: [CHAT] + AdrianRo_765 s-a conectat
+[16:57:12] [Client thread/INFO]: [CHAT] Hey! Sorry, but you can't use that here.
+[16:57:17] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Sending packets §8(§fFAWE§8) §8[§f1000§8]
+[16:57:17] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Packets has been sent §8(§f1ms§8)
+[16:57:53] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[16:58:05] [Client thread/INFO]: Connecting to play.addicted2.ro, 25565
+[16:58:05] [Netty Client IO #18/WARN]: Ignoring plugin channel in outgoing REGISTER: legacy:fml|hs
+[16:58:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:05] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:05] [Client thread/INFO]: [CHAT]                                      
+[16:58:05] [Client thread/INFO]: [CHAT]               
+[16:58:05] [Client thread/INFO]: [CHAT]        Addicted2 Network (Spring Update)
+[16:58:05] [Client thread/INFO]: [CHAT] 
+[16:58:05] [Client thread/INFO]: [CHAT]         Bun venit pe server, sssssssthedev
+[16:58:05] [Client thread/INFO]: [CHAT]             Esti conectat pe Lobby2
+[16:58:05] [Client thread/INFO]: [CHAT] 
+[16:58:05] [Client thread/INFO]: [CHAT]           STORE: store.addicted2.ro
+[16:58:05] [Client thread/INFO]: [CHAT]         FORUM: www.addicted2.ro/forums
+[16:58:05] [Client thread/INFO]: [CHAT] 
+[16:58:05] [Client thread/INFO]: [CHAT] ---- Motd -- Pagina 1/1 ----
+[16:58:05] [Client thread/INFO]: [CHAT]               
+[16:58:05] [Client thread/INFO]: [CHAT]        Addicted2 Network (Spring Update)
+[16:58:05] [Client thread/INFO]: [CHAT] 
+[16:58:05] [Client thread/INFO]: [CHAT]         Bun venit pe server, sssssssthedev
+[16:58:05] [Client thread/INFO]: [CHAT]             Esti conectat pe Lobby2
+[16:58:05] [Client thread/INFO]: [CHAT] 
+[16:58:05] [Client thread/INFO]: [CHAT]           STORE: store.addicted2.ro
+[16:58:05] [Client thread/INFO]: [CHAT]         FORUM: www.addicted2.ro/forums
+[16:58:05] [Client thread/INFO]: [CHAT] 
+[16:58:06] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:06] [Client thread/INFO]: [CHAT] 
+[16:58:06] [Client thread/INFO]: [CHAT]            » Link: www.addicted2.ro/vote
+[16:58:06] [Client thread/INFO]: [CHAT]             » Ai un numar de 0 voturi!
+[16:58:06] [Client thread/INFO]: [CHAT] 
+[16:58:06] [Client thread/INFO]: [CHAT] * Voteaza serverul zilnic pentru a primi premii globale
+[16:58:06] [Client thread/INFO]: [CHAT] 
+[16:58:06] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:07] [Client thread/INFO]: [CHAT] [SECURITY] Logheaza-te cu: "/login password"
+[16:58:08] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:09] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:10] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:11] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:12] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:12] [Client thread/INFO]: [CHAT] [SECURITY] Te-ai logat cu succes!
+[16:58:13] [Client thread/INFO]: [CHAT] deny
+[16:58:13] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:15] [Client thread/INFO]: [CHAT] ADD2 » Aceasta comanda nu exista!
+[16:58:17] [Client thread/INFO]: [CHAT] ADD2 » Aceasta comanda nu exista!
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=0, metaType=Byte, value=64}
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Client thread/INFO]: [CHAT] (!) Nu uita sa votezi serverul! Momentan ai 0 voturi
+[16:58:22] [Client thread/INFO]: [CHAT]               
+[16:58:22] [Client thread/INFO]: [CHAT]        Addicted2 Network (Spring Update)
+[16:58:22] [Client thread/INFO]: [CHAT] 
+[16:58:22] [Client thread/INFO]: [CHAT]         Bun venit pe server, sssssssthedev
+[16:58:22] [Client thread/INFO]: [CHAT]          Esti conectat pe SURVIVAL 1.16.4
+[16:58:22] [Client thread/INFO]: [CHAT] 
+[16:58:22] [Client thread/INFO]: [CHAT]           STORE: store.addicted2.ro
+[16:58:22] [Client thread/INFO]: [CHAT]         FORUM: www.addicted2.ro/forums
+[16:58:22] [Client thread/INFO]: [CHAT] 
+[16:58:22] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1995) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=0, metaType=Byte, value=64}
+Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=2, metaType=OptChat, value=null}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=4, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=6, metaType=Pose, value=0}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=11751538}
+Metadata{id=10, metaType=Boolean, value=true}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=14, metaType=Float, value=0.0}
+Metadata{id=15, metaType=VarInt, value=118946}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=2, metaType=OptChat, value=null}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=2, metaType=OptChat, value=null}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=4, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=6, metaType=Pose, value=0}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=11751538}
+Metadata{id=10, metaType=Boolean, value=true}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=14, metaType=Float, value=0.0}
+Metadata{id=15, metaType=VarInt, value=118946}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=6, metaType=Pose, value=0}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=4, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=6, metaType=Pose, value=0}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=11751538}
+Metadata{id=10, metaType=Boolean, value=true}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=14, metaType=Float, value=0.0}
+Metadata{id=15, metaType=VarInt, value=118946}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=4, metaType=Boolean, value=false}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=4, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=11751538}
+Metadata{id=10, metaType=Boolean, value=true}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=14, metaType=Float, value=0.0}
+Metadata{id=15, metaType=VarInt, value=118946}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=15, metaType=VarInt, value=118946}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=11751538}
+Metadata{id=10, metaType=Boolean, value=true}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=14, metaType=Float, value=0.0}
+Metadata{id=15, metaType=VarInt, value=118946}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=14, metaType=Float, value=0.0}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=11751538}
+Metadata{id=10, metaType=Boolean, value=true}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=14, metaType=Float, value=0.0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=12, metaType=VarInt, value=0}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=11751538}
+Metadata{id=10, metaType=Boolean, value=true}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=13, metaType=OptPosition, value=null}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=11751538}
+Metadata{id=10, metaType=Boolean, value=true}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=8, metaType=Float, value=20.0}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=11751538}
+Metadata{id=10, metaType=Boolean, value=true}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=9, metaType=VarInt, value=11751538}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=9, metaType=VarInt, value=11751538}
+Metadata{id=10, metaType=Boolean, value=true}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=11, metaType=VarInt, value=0}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=10, metaType=Boolean, value=true}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=10, metaType=Boolean, value=true}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=10, metaType=Boolean, value=true}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=1, metaType=VarInt, value=300}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=3, metaType=Boolean, value=false}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=7, metaType=Byte, value=0}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=5, metaType=Boolean, value=false}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=16, metaType=Byte, value=127}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=17, metaType=Byte, value=1}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=0, metaType=Byte, value=72}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=0, metaType=Byte, value=72}
+Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=2, metaType=OptChat, value=null}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=4, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=6, metaType=Pose, value=0}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=0}
+Metadata{id=10, metaType=Boolean, value=false}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=14, metaType=Float, value=0.0}
+Metadata{id=15, metaType=VarInt, value=197901}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=2, metaType=OptChat, value=null}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=2, metaType=OptChat, value=null}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=4, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=6, metaType=Pose, value=0}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=0}
+Metadata{id=10, metaType=Boolean, value=false}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=14, metaType=Float, value=0.0}
+Metadata{id=15, metaType=VarInt, value=197901}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=6, metaType=Pose, value=0}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=4, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=6, metaType=Pose, value=0}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=0}
+Metadata{id=10, metaType=Boolean, value=false}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=14, metaType=Float, value=0.0}
+Metadata{id=15, metaType=VarInt, value=197901}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=4, metaType=Boolean, value=false}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=4, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=0}
+Metadata{id=10, metaType=Boolean, value=false}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=14, metaType=Float, value=0.0}
+Metadata{id=15, metaType=VarInt, value=197901}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=15, metaType=VarInt, value=197901}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=0}
+Metadata{id=10, metaType=Boolean, value=false}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=14, metaType=Float, value=0.0}
+Metadata{id=15, metaType=VarInt, value=197901}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=14, metaType=Float, value=0.0}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=0}
+Metadata{id=10, metaType=Boolean, value=false}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=14, metaType=Float, value=0.0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=12, metaType=VarInt, value=0}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=0}
+Metadata{id=10, metaType=Boolean, value=false}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=12, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=13, metaType=OptPosition, value=null}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=0}
+Metadata{id=10, metaType=Boolean, value=false}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=13, metaType=OptPosition, value=null}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=8, metaType=Float, value=20.0}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=8, metaType=Float, value=20.0}
+Metadata{id=9, metaType=VarInt, value=0}
+Metadata{id=10, metaType=Boolean, value=false}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=9, metaType=VarInt, value=0}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=9, metaType=VarInt, value=0}
+Metadata{id=10, metaType=Boolean, value=false}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=11, metaType=VarInt, value=0}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=10, metaType=Boolean, value=false}
+Metadata{id=11, metaType=VarInt, value=0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=10, metaType=Boolean, value=false}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=10, metaType=Boolean, value=false}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=1, metaType=VarInt, value=300}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=1, metaType=VarInt, value=300}
+Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=3, metaType=Boolean, value=false}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=3, metaType=Boolean, value=false}
+Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=7, metaType=Byte, value=0}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=7, metaType=Byte, value=0}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=5, metaType=Boolean, value=false}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=5, metaType=Boolean, value=false}
+Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=16, metaType=Byte, value=127}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=16, metaType=Byte, value=127}
+Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=17, metaType=Byte, value=1}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=17, metaType=Byte, value=1}
+Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+Metadata{id=19, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: An error occurred with entity metadata handler
+[16:58:22] [Netty Client IO #18/WARN]: This is most likely down to one of your plugins sending bad datawatchers. Please test if this occurs without any plugins except ViaVersion before reporting it on GitHub
+[16:58:22] [Netty Client IO #18/WARN]: Also make sure that all your plugins are compatible with your server version.
+[16:58:22] [Netty Client IO #18/WARN]: Entity type: null
+[16:58:22] [Netty Client IO #18/WARN]: Indexed meta: Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:22] [Netty Client IO #18/WARN]: Metadata: Metadata{id=18, metaType=NBTTag, value=CompoundTag { {} }}
+[16:58:23] [Client thread/INFO]: [CHAT] (FAWE) You are lacking the permission node: ( worldedit.brush.targetoffset )
+[16:58:24] [Client thread/INFO]: [CHAT] [DailyRewards] Ai premii care te asteapta! Foloseste /rewards
+[16:58:24] [Client thread/INFO]: [CHAT] Rookie AyanX777X » Ca pe breasla haiducilor ma simt asa
+[16:58:25] [Client thread/INFO]: [CHAT] ADD2 » Aceasta comanda nu exista!
+[16:58:26] [Client thread/INFO]: [CHAT] [ChatBrawl] there is no race running at the moment!
+[16:58:26] [Client thread/INFO]: [CHAT] 
+[16:58:26] [Client thread/INFO]: [CHAT] + 200$
+[16:58:26] [Client thread/INFO]: [CHAT] [☘] New Achievement: REALIZARE DEBLOCATA
+[16:58:26] [Client thread/INFO]: [CHAT] [☘] Te-ai conectat pentru prima data
+[16:58:26] [Client thread/INFO]: [CHAT] [☘] Reward command carried out!
+[16:58:27] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Sending packets §8(§fFAWE§8) §8[§f1000§8]
+[16:58:27] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Packets has been sent §8(§f0ms§8)
+[16:58:29] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:29] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:29] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:29] [Client thread/INFO]: [CHAT]                                      
+[16:58:29] [Client thread/INFO]: [CHAT] deny
+[16:58:29] [Client thread/INFO]: [CHAT]               
+[16:58:29] [Client thread/INFO]: [CHAT]        Addicted2 Network (Spring Update)
+[16:58:29] [Client thread/INFO]: [CHAT] 
+[16:58:29] [Client thread/INFO]: [CHAT]         Bun venit pe server, sssssssthedev
+[16:58:29] [Client thread/INFO]: [CHAT]             Esti conectat pe Lobby1
+[16:58:29] [Client thread/INFO]: [CHAT] 
+[16:58:29] [Client thread/INFO]: [CHAT]           STORE: store.addicted2.ro
+[16:58:29] [Client thread/INFO]: [CHAT]         FORUM: www.addicted2.ro/forums
+[16:58:29] [Client thread/INFO]: [CHAT] 
+[16:58:29] [Client thread/INFO]: [CHAT] [SECURITY] Sesiunea a fost stabilita de data trecuta!
+[16:58:29] [Client thread/INFO]: [CHAT] [SECURITY] Te-ai logat cu succes!
+[16:58:29] [Client thread/INFO]: [CHAT] 
+[16:58:29] [Client thread/INFO]: [CHAT]            » Link: www.addicted2.ro/vote
+[16:58:29] [Client thread/INFO]: [CHAT]             » Ai un numar de 0 voturi!
+[16:58:29] [Client thread/INFO]: [CHAT] 
+[16:58:29] [Client thread/INFO]: [CHAT] * Voteaza serverul zilnic pentru a primi premii globale
+[16:58:29] [Client thread/INFO]: [CHAT] 
+[16:58:30] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:30] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:30] [Client thread/INFO]: [CHAT] Hey! Sorry, but you can't use that here.
+[16:58:31] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:32] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:32] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:39] [Client thread/INFO]: [CHAT]               
+[16:58:39] [Client thread/INFO]: [CHAT]        Addicted2 Network (Winter Update)
+[16:58:39] [Client thread/INFO]: [CHAT] 
+[16:58:39] [Client thread/INFO]: [CHAT]         Bun venit pe server, sssssssthedev
+[16:58:39] [Client thread/INFO]: [CHAT]             Esti conectat pe BED WARS
+[16:58:39] [Client thread/INFO]: [CHAT] 
+[16:58:39] [Client thread/INFO]: [CHAT]           STORE: store.addicted2.ro
+[16:58:39] [Client thread/INFO]: [CHAT]         FORUM: www.addicted2.ro/forums
+[16:58:39] [Client thread/INFO]: [CHAT] 
+[16:58:39] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.gravel.hit
+[16:58:39] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:39] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.gravel.hit
+[16:58:39] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:39] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:39] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:39] [Client thread/INFO]: [CHAT] 
+[16:58:39] [Client thread/INFO]: [CHAT]            » Link: www.addicted2.ro/vote
+[16:58:39] [Client thread/INFO]: [CHAT]             » Ai un numar de 0 voturi!
+[16:58:39] [Client thread/INFO]: [CHAT] 
+[16:58:39] [Client thread/INFO]: [CHAT] * Voteaza serverul zilnic pentru a primi premii globale
+[16:58:39] [Client thread/INFO]: [CHAT] 
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:40] [Client thread/INFO]: [CHAT] ADD2 » Aceasta comanda nu exista!
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.gravel.hit
+[16:58:40] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.gravel.hit
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.gravel.hit
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.gravel.hit
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.gravel.hit
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:41] [Client thread/INFO]: [CHAT] ADD2 » Aceasta comanda nu exista!
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.gravel.hit
+[16:58:41] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:42] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:42] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:42] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.gravel.hit
+[16:58:42] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.gravel.hit
+[16:58:42] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:42] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:42] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:42] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:42] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:42] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.gravel.hit
+[16:58:42] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.anvil.hit
+[16:58:42] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:43] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:43] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:43] [Client thread/INFO]: [CHAT]                                      
+[16:58:43] [Client thread/INFO]: [CHAT]               
+[16:58:43] [Client thread/INFO]: [CHAT]        Addicted2 Network (Spring Update)
+[16:58:43] [Client thread/INFO]: [CHAT] 
+[16:58:43] [Client thread/INFO]: [CHAT]         Bun venit pe server, sssssssthedev
+[16:58:43] [Client thread/INFO]: [CHAT]             Esti conectat pe Lobby1
+[16:58:43] [Client thread/INFO]: [CHAT] 
+[16:58:43] [Client thread/INFO]: [CHAT]           STORE: store.addicted2.ro
+[16:58:43] [Client thread/INFO]: [CHAT]         FORUM: www.addicted2.ro/forums
+[16:58:43] [Client thread/INFO]: [CHAT] 
+[16:58:43] [Client thread/INFO]: [CHAT] [SECURITY] Sesiunea a fost stabilita de data trecuta!
+[16:58:43] [Client thread/INFO]: [CHAT] [SECURITY] Te-ai logat cu succes!
+[16:58:43] [Client thread/INFO]: [CHAT] 
+[16:58:43] [Client thread/INFO]: [CHAT]            » Link: www.addicted2.ro/vote
+[16:58:43] [Client thread/INFO]: [CHAT]             » Ai un numar de 0 voturi!
+[16:58:43] [Client thread/INFO]: [CHAT] 
+[16:58:43] [Client thread/INFO]: [CHAT] * Voteaza serverul zilnic pentru a primi premii globale
+[16:58:43] [Client thread/INFO]: [CHAT] 
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1109) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:429) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.lang.NullPointerException
+[16:58:47] [Client thread/INFO]: [CHAT] (hb!) PvPMoney Enabled
+[16:58:47] [Client thread/INFO]: [CHAT] ADD2 » Nu ai mailuri noi.
+[16:58:47] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:47] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:47] [Client thread/INFO]: [CHAT]  + Civil sssssssthedev
+[16:58:47] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:47] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:47] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:47] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:47] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:47] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:47] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:47] [Client thread/INFO]: [CHAT] 
+[16:58:47] [Client thread/INFO]: [CHAT]            » Link: www.addicted2.ro/vote
+[16:58:47] [Client thread/INFO]: [CHAT]             » Ai un numar de 0 voturi!
+[16:58:47] [Client thread/INFO]: [CHAT] 
+[16:58:47] [Client thread/INFO]: [CHAT] * Voteaza serverul zilnic pentru a primi premii globale
+[16:58:47] [Client thread/INFO]: [CHAT] 
+[16:58:47] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:48] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:48] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:48] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:48] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:49] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:49] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:50] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:50] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:50] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:50] [Client thread/INFO]: [CHAT] ADD2 » Aceasta comanda nu exista!
+[16:58:50] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:51] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:51] [Client thread/INFO]: [CHAT] ADD2 » Aceasta comanda nu exista!
+[16:58:51] [Client thread/INFO]: [CHAT] [SUPREME] rankedAlobal_ » Cine imi fura mie kill
+[16:58:51] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:52] [Netty Client IO #18/WARN]: Unknown named sound in 1.13->1.12 protocol: block.wood.step
+[16:58:52] [Client thread/INFO]: [CHAT] [SUPREME] rankedAlobal_ » smr
+[16:58:52] [Client thread/INFO]: [CHAT] Assassins xCheating » mai am de strans ca ca ti am zis ca nu am loc in pv
+[16:58:56] [Client thread/ERROR]: Can't ping play.sssssss.dev: Disconnected
+[17:07:58] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[17:07:58] [Client thread/INFO]: [CHAT] + sssssssthedev s-a conectat
+[17:07:58] [Client thread/INFO]: [CHAT] [CraftMC] » Sesiune reusita.
+[17:07:58] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[17:07:58] [Client thread/INFO]: [CHAT] 
+[17:07:58] [Client thread/INFO]: [CHAT]     Bine ai venit, sssssssthedev pe server!
+[17:07:58] [Client thread/INFO]: [CHAT] 
+[17:07:58] [Client thread/INFO]: [CHAT]   FORUM forum.craftmc.pro
+[17:07:58] [Client thread/INFO]: [CHAT]   STORE store.craftmc.pro
+[17:07:58] [Client thread/INFO]: [CHAT]   DISCORD discord.me/craftmc
+[17:07:58] [Client thread/INFO]: [CHAT] 
+[17:07:58] [Client thread/INFO]: [CHAT]          Te joci pe mc.craftmc.pro
+[17:07:58] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[17:07:58] [Client thread/INFO]: [CHAT] [CraftMC] » Te-ai autentificat cu succes.
+[17:08:05] [Client thread/INFO]: [CHAT] - Alexandru321 s-a deconectat
+[17:08:08] [Client thread/INFO]: [CHAT] 
+[17:08:08] [Client thread/INFO]: [CHAT]                              ✪ CraftMC ✪
+[17:08:08] [Client thread/INFO]: [CHAT] 
+[17:08:08] [Client thread/INFO]: [CHAT]         Voteaza-ne server-ul si primesti recompense!
+[17:08:08] [Client thread/INFO]: [CHAT]                        store.craftmc.pro/vote
+[17:08:08] [Client thread/INFO]: [CHAT] 
+[17:08:10] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Sending packets §8(§fFAWE§8) §8[§f1000§8]
+[17:08:10] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Packets has been sent §8(§f0ms§8)
+[17:08:35] [Client thread/ERROR]: Can't ping play.sssssss.dev: Disconnected
+[17:15:09] [Client thread/INFO]: Connecting to mc.craftmc.pro, 25565
+[17:15:09] [Client thread/INFO]: [CHAT] + sssssssthedev s-a conectat
+[17:15:10] [Client thread/INFO]: [CHAT] [CraftMC] » Sesiune reusita.
+[17:15:10] [Client thread/INFO]: [CHAT] [CraftMC] » Te-ai autentificat cu succes.
+[17:15:10] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[17:15:10] [Client thread/INFO]: [CHAT] 
+[17:15:10] [Client thread/INFO]: [CHAT]     Bine ai venit, sssssssthedev pe server!
+[17:15:10] [Client thread/INFO]: [CHAT] 
+[17:15:10] [Client thread/INFO]: [CHAT]   FORUM forum.craftmc.pro
+[17:15:10] [Client thread/INFO]: [CHAT]   STORE store.craftmc.pro
+[17:15:10] [Client thread/INFO]: [CHAT]   DISCORD discord.me/craftmc
+[17:15:10] [Client thread/INFO]: [CHAT] 
+[17:15:10] [Client thread/INFO]: [CHAT]          Te joci pe mc.craftmc.pro
+[17:15:10] [Client thread/INFO]: [CHAT] +---------------***---------------+
+[17:15:10] [Client thread/INFO]: [CHAT] - mateeeeeeeeeeeei s-a deconectat
+[17:15:17] [Client thread/INFO]: [CHAT] + mateeeeeeeeeeeei s-a conectat
+[17:15:19] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Sending packets §8(§fFAWE§8) §8[§f1000§8]
+[17:15:19] [Client thread/INFO]: [CHAT] §bSmart Client §8▪§f Packets has been sent §8(§f0ms§8)
+[17:27:00] [Client thread/INFO]: Stopping!
+[17:27:00] [Client thread/INFO]: SoundSystem shutting down...
+[17:27:01] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
