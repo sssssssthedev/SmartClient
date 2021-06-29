@@ -56,7 +56,6 @@ public class Main {
     public static String PreUUID;
     public static String IpToScan;
     public SettingsManager settingsManager;
-    // EventManager is not gonna be implemented here cause idc about it lmao
     public ModuleManager moduleManager;
     public ClickGUI clickGUI;
     public EventManager eventManager;
