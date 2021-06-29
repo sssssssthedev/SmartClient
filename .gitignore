@@ -1,5 +1,6 @@
-bin*
-eclipse*
-logs*
-reobf*
-temp*
+bin/*
+eclipse/*
+logs/*
+reobf/*
+temp/*
+jars/*
