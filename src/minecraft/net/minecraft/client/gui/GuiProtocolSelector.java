@@ -42,7 +42,7 @@ public class GuiProtocolSelector extends GuiScreen {
         drawCenteredString(this.fontRendererObj, EnumChatFormatting.GOLD.toString() + "SmartVia", this.width / 4, 6, 16777215);
         GL11.glPopMatrix();
         drawString(this.fontRendererObj, "by sssssssthedev", 1, 1, -1);
-        drawString(this.fontRendererObj, "Discord: sssssss ﾉ SsS#6134", 1, 11, -1);
+        drawString(this.fontRendererObj, "Discord: sssssss \u30ce SsS#6134", 1, 11, -1);
         super.drawScreen(mouseX, mouseY, partialTicks);
     }
 
