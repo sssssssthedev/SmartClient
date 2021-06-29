@@ -13,5 +13,6 @@ public class Help extends Command {
         msg("\u00a7b#toggle \u00a78- \u00a7fToggles a Module");
         msg("\u00a7b#bind \u00a78- \u00a7fBinds a key to a mod");
         msg("\u00a7b#fawe \u00a78- \u00a7fCrash fawe servers");
+        msg("\u00a7b#localcrash \u00a78- \u00a7fCrash your game locally to remain in the air");
     }
 }
