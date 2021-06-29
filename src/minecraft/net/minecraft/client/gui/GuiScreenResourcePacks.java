@@ -41,13 +41,13 @@ public class GuiScreenResourcePacks extends GuiScreen
      */
     public void initGui()
     {
-        this.buttonList.add(new GuiOptionButton(2, this.width / 2 - 154, this.height - 48, I18n.format("resourcePack.openFolder", new Object[0])));
-        this.buttonList.add(new GuiOptionButton(1, this.width / 2 + 4, this.height - 48, I18n.format("gui.done", new Object[0])));
+        this.buttonList.add(new GuiOptionButton(2, width / 2 - 154, height - 48, I18n.format("resourcePack.openFolder")));
+        this.buttonList.add(new GuiOptionButton(1, width / 2 + 4, height - 48, I18n.format("gui.done")));
 
         if (!this.changed)
         {
-            this.availableResourcePacks = Lists.<ResourcePackListEntry>newArrayList();
-            this.selectedResourcePacks = Lists.<ResourcePackListEntry>newArrayList();
+            this.availableResourcePacks = Lists.newArrayList();
+            this.selectedResourcePacks = Lists.newArrayList();
             ResourcePackRepository resourcepackrepository = this.mc.getResourcePackRepository();
             resourcepackrepository.updateRepositoryEntriesAll();
             List<ResourcePackRepository.Entry> list = Lists.newArrayList(resourcepackrepository.getRepositoryEntriesAll());
@@ -66,11 +66,11 @@ public class GuiScreenResourcePacks extends GuiScreen
             this.selectedResourcePacks.add(new ResourcePackListEntryDefault(this));
         }
 
-        this.availableResourcePacksList = new GuiResourcePackAvailable(this.mc, 200, this.height, this.availableResourcePacks);
-        this.availableResourcePacksList.setSlotXBoundsFromLeft(this.width / 2 - 4 - 200);
+        this.availableResourcePacksList = new GuiResourcePackAvailable(this.mc, 200, height, this.availableResourcePacks);
+        this.availableResourcePacksList.setSlotXBoundsFromLeft(width / 2 - 4 - 200);
         this.availableResourcePacksList.registerScrollButtons(7, 8);
-        this.selectedResourcePacksList = new GuiResourcePackSelected(this.mc, 200, this.height, this.selectedResourcePacks);
-        this.selectedResourcePacksList.setSlotXBoundsFromLeft(this.width / 2 + 4);
+        this.selectedResourcePacksList = new GuiResourcePackSelected(this.mc, 200, height, this.selectedResourcePacks);
+        this.selectedResourcePacksList.setSlotXBoundsFromLeft(width / 2 + 4);
         this.selectedResourcePacksList.registerScrollButtons(7, 8);
     }
 
@@ -126,12 +126,12 @@ public class GuiScreenResourcePacks extends GuiScreen
                     }
                     catch (IOException ioexception1)
                     {
-                        logger.error((String)"Couldn\'t open file", (Throwable)ioexception1);
+                        logger.error("Couldn't open file", ioexception1);
                     }
                 }
                 else if (Util.getOSType() == Util.EnumOS.WINDOWS)
                 {
-                    String s1 = String.format("cmd.exe /C start \"Open file\" \"%s\"", new Object[] {s});
+                    String s1 = String.format("cmd.exe /C start \"Open file\" \"%s\"", s);
 
                     try
                     {
@@ -140,7 +140,7 @@ public class GuiScreenResourcePacks extends GuiScreen
                     }
                     catch (IOException ioexception)
                     {
-                        logger.error((String)"Couldn\'t open file", (Throwable)ioexception);
+                        logger.error("Couldn't open file", ioexception);
                     }
                 }
 
@@ -149,12 +149,12 @@ public class GuiScreenResourcePacks extends GuiScreen
                 try
                 {
                     Class<?> oclass = Class.forName("java.awt.Desktop");
-                    Object object = oclass.getMethod("getDesktop", new Class[0]).invoke((Object)null, new Object[0]);
-                    oclass.getMethod("browse", new Class[] {URI.class}).invoke(object, new Object[] {file1.toURI()});
+                    Object object = oclass.getMethod("getDesktop", new Class[0]).invoke(null);
+                    oclass.getMethod("browse", new Class[] {URI.class}).invoke(object, file1.toURI());
                 }
                 catch (Throwable throwable)
                 {
-                    logger.error("Couldn\'t open link", throwable);
+                    logger.error("Couldn't open link", throwable);
                     flag = true;
                 }
 
@@ -168,7 +168,7 @@ public class GuiScreenResourcePacks extends GuiScreen
             {
                 if (this.changed)
                 {
-                    List<ResourcePackRepository.Entry> list = Lists.<ResourcePackRepository.Entry>newArrayList();
+                    List<ResourcePackRepository.Entry> list = Lists.newArrayList();
 
                     for (ResourcePackListEntry resourcepacklistentry : this.selectedResourcePacks)
                     {
@@ -228,8 +228,8 @@ public class GuiScreenResourcePacks extends GuiScreen
         this.drawBackground(0);
         this.availableResourcePacksList.drawScreen(mouseX, mouseY, partialTicks);
         this.selectedResourcePacksList.drawScreen(mouseX, mouseY, partialTicks);
-        this.drawCenteredString(this.fontRendererObj, I18n.format("resourcePack.title", new Object[0]), this.width / 2, 16, 16777215);
-        this.drawCenteredString(this.fontRendererObj, I18n.format("resourcePack.folderInfo", new Object[0]), this.width / 2 - 77, this.height - 26, 8421504);
+        this.drawCenteredString(this.fontRendererObj, I18n.format("resourcePack.title"), width / 2, 16, 16777215);
+        this.drawCenteredString(this.fontRendererObj, I18n.format("resourcePack.folderInfo"), width / 2 - 77, height - 26, 8421504);
         super.drawScreen(mouseX, mouseY, partialTicks);
     }
 
