@@ -19,6 +19,7 @@ import net.minecraft.client.renderer.texture.TextureUtil;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.ResourceLocation;
 import net.sssssssthedev.SmartClient.server.ServerDataFeatured;
+import net.sssssssthedev.SmartClient.utils.ColorUtils;
 import org.apache.commons.lang3.Validate;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -73,6 +74,10 @@ public class ServerListEntryNormal implements GuiListExtended.IGuiListEntry {
         boolean flag1 = this.field_148301_e.version < 47;
         boolean flag2 = flag || flag1;
         this.mc.fontRendererObj.drawString(this.field_148301_e.serverName, x + 32 + 3, y + 1, 16777215);
+        Minecraft.getMinecraft().fontRendererObj.drawString(ColorUtils.color + "bVersion:", x + 310, y + 1, 16777215);
+        Minecraft.getMinecraft().fontRendererObj.drawString(ColorUtils.color + "f" + this.field_148301_e.gameVersion, x + 380, y + 1, 0);
+        Minecraft.getMinecraft().fontRendererObj.drawString(ColorUtils.color + "bProtocol", x + 310, y + 11, 16777215);
+        Minecraft.getMinecraft().fontRendererObj.drawString(ColorUtils.color + "f"+ this.field_148301_e.version, x + 360, y + 11, 0);
         List<String> list = this.mc.fontRendererObj.listFormattedStringToWidth(this.field_148301_e.serverMOTD, listWidth - 32 - 2);
 
         for (int i = 0; i < Math.min(list.size(), 2); ++i) {
