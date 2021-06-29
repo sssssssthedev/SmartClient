@@ -1,6 +1,7 @@
 package net.sssssssthedev.SmartClient.command;
 
 import net.sssssssthedev.SmartClient.command.exploits.Fawe;
+import net.sssssssthedev.SmartClient.command.exploits.LocalCrash;
 import net.sssssssthedev.SmartClient.command.modules.Bind;
 import net.sssssssthedev.SmartClient.command.modules.Toggle;
 import net.sssssssthedev.SmartClient.command.other.Help;
@@ -21,6 +22,7 @@ public class CommandManager {
         addCommand(new Bind());
         addCommand(new Toggle());
         addCommand(new Fawe());
+        addCommand(new LocalCrash());
     }
 
     public void addCommand(Command cmd) {
