@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="ViaForge">
-    <CLASSES>
-      <root url="jar://$MCP_LOC$/lib/ViaForge.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

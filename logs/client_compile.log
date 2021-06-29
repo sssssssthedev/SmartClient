@@ -1,9 +1,0 @@
-Note: SpongePowered MIXIN Annotation Processor Version=0.7.10
-Note: ObfuscationServiceMCP supports type: "searge"
-Note: ObfuscationServiceMCP supports type: "notch"
-src\minecraft\net\sssssssthedev\SmartClient\module\crasher\Food.java:33: warning: [deprecation] stop() in Thread has been deprecated
-        this.t.stop();
-              ^
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-1 warning
