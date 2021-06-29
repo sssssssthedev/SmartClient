@@ -23,10 +23,6 @@ public class Panel {
 	public boolean visible;
 	public ArrayList<ModuleButton> Elements = new ArrayList<>();
 	public ClickGUI clickgui;
-
-	/*
-	 * Konstrukor
-	 */
 		public Panel(String ititle, double ix, double iy, double iwidth, double iheight, boolean iextended, ClickGUI parent) {
 			this.title = ititle;
 			this.x = ix;
@@ -40,14 +36,8 @@ public class Panel {
 			setup();
 		}
 
-		/*
-		 * Wird in ClickGUI berschrieben, sodass auch ModuleButtons hinzugefgt werden knnen :3
-		 */
 		public void setup() {}
 
-		/*
-		 * Rendern des Elements.
-		 */
 		public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 			if (!this.visible)
 				return;
@@ -89,10 +79,6 @@ public class Panel {
 			}
 		}
 
-		/*
-		 * Zum Bewegen und Extenden des Panels
-		 * usw.
-		 */
 		public boolean mouseClicked(int mouseX, int mouseY, int mouseButton) {
 			if (!this.visible) {
 				return false;
@@ -115,9 +101,6 @@ public class Panel {
 			return false;
 		}
 
-		/*
-		 * Damit das Panel auch losgelassen werden kann
-		 */
 		public void mouseReleased(int mouseX, int mouseY, int state) {
 			if (!this.visible) {
 				return;
@@ -127,9 +110,6 @@ public class Panel {
 			}
 		}
 
-		/*
-		 * HoverCheck
-		 */
 		public boolean isHovered(int mouseX, int mouseY) {
 			return mouseX >= x && mouseX <= x + width && mouseY >= y && mouseY <= y + height;
 		}
