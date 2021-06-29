@@ -56,7 +56,7 @@ public class ServerList
     }
 
     private void loadFeaturedServers() {
-        this.addServerData(new ServerDataFeatured("Featured Server", "hivemc.com"));
+        this.addServerData(new ServerDataFeatured("Featured Server", "mc.gamster.org"));
     }
     public int getFeaturedServerCount() {
         int count = 0;
