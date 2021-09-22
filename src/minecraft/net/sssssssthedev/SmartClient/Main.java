@@ -1,9 +1,9 @@
 package net.sssssssthedev.SmartClient;
 
 
-// Copyright sssssss.dev (C) 2020-2025
+// Copyright sssssss.dev (C) 2020-2021
 // You are not allowed to redistribute this source
-// or sell it for money
+// without proper crediting or sell it for money
 
 import de.enzaxd.viaforge.ViaForge;
 import net.minecraft.util.Session;
