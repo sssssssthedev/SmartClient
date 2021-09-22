@@ -1,6 +1,12 @@
 bin/*
+backupsrc/*
+conf/*
+docs/*
+lib/*
+runtime/*
 eclipse/*
 logs/*
 reobf/*
 temp/*
 jars/*
+*.bat
