@@ -10,3 +10,4 @@ reobf/*
 temp/*
 jars/*
 *.bat
+*.sh
