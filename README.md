@@ -8,7 +8,7 @@ Oh yeah and this was made in 2020 but i updated it
 and made it public.
 
 # Libraries needed to run this
-Download them from here: https://www.mediafire.com/file/7y8wf7zujqexhg3/smartlibraries.rar/file
+Download them from here: https://www.mediafire.com/file/c9e9nu2tugnyna1/smartlibraries.rar
 
 # Copyright (C) sssssss.dev 2021-2022 All rights reserved
 You are not allowed to sell this for monetary profit, you are only allowed
