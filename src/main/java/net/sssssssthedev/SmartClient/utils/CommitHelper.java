@@ -15,12 +15,12 @@ public class CommitHelper {
         BufferedReader stdInput;
         switch (osType) {
             case Windows:
-                proc = rt.exec("curl -s -H \"Authorization: token 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\" -H\n" +
+                proc = rt.exec("curl -s -H \"Authorization: token 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\" -H\n" +
                         "\"Accept: application/vnd.github.VERSION.sha\" \"https://api.github.com/repos/sssssssthedev/SmartClient/commits/main\"");
                 stdInput = new BufferedReader(new InputStreamReader(proc.getInputStream()));
                 return stdInput.readLine().substring(0, 7);
             case Linux:
-                proc = rt.exec("curl -s -H \"Authorization: token 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\" -H\n" +
+                proc = rt.exec("curl -s -H \"Authorization: token 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\" -H\n" +
                         "\"Accept: application/vnd.github.VERSION.sha\" \"https://api.github.com/repos/sssssssthedev/SmartClient/commits/main\"");
                 stdInput = new BufferedReader(new InputStreamReader(proc.getInputStream()));
                 return stdInput.readLine().substring(0, 7);

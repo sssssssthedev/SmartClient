@@ -58,9 +58,11 @@ dependencies {
     implementation group: 'com.mojang', name: 'realms', version: '1.7.39'
     implementation group: 'com.mojang', name: 'authlib', version: '1.5.21'
     implementation group: 'tv.twitch', name: 'twitch', version: '6.5'
+    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
     implementation 'com.github.Vatuu:discord-rpc:1.6.2'
     implementation 'org.slick2d:slick2d-core:1.0.2'
     implementation 'javax.vecmath:vecmath:1.5.2'
+    implementation 'org.json:json:20210307'
     implementation files('libs/ViaBackwards-4.0.0.jar')
     implementation files('libs/ViaVersion-4.0.2.jar')
     implementation files('libs/ViaRewind-2.0.0.jar')

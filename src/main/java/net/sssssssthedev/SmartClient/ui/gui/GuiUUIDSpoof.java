@@ -2,14 +2,17 @@ package net.sssssssthedev.SmartClient.ui.gui;
 
 
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.URL;
-import java.util.Scanner;
+
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.GuiTextField;
 import net.minecraft.util.Session;
 import net.sssssssthedev.SmartClient.Main;
 import net.sssssssthedev.SmartClient.utils.ColorUtils;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 
 public class GuiUUIDSpoof extends GuiScreen {
     protected GuiTextField fakeNickField;
@@ -59,11 +62,7 @@ public class GuiUUIDSpoof extends GuiScreen {
                 mc.displayGuiScreen(this.prevScreen);
             } else {
                 try {
-                    URL url = new URL("https://api.mojang.com/users/profiles/minecraft/" + this.fakeNickField.getText());
-                    Scanner scanner = new Scanner(url.openStream());
-                    String line = scanner.nextLine();
-                    Main.PreUUID = line.split("\"")[3];
-                    scanner.close();
+                    Main.PreUUID = fetchUUID(this.fakeNickField.getText());
                     Session realSession = mc.getSession();
                     Session copiedSession = new Session(this.realNickField.getText(), realSession.getPlayerID(), realSession.getToken(), Session.Type.LEGACY.name());
                     Main.setSession(copiedSession);
@@ -115,6 +114,12 @@ public class GuiUUIDSpoof extends GuiScreen {
         this.fakeNickField.drawTextBox();
         this.realNickField.drawTextBox();
         super.drawScreen(mouseX, mouseY, partialTicks);
+    }
+
+    public String fetchUUID(String s) throws Exception {
+        URL url = new URL("https://api.mojang.com/users/profiles/minecraft/" + s);
+        String uuid = (String)((JSONObject)(new JSONParser()).parse(new InputStreamReader(url.openStream()))).get("id");
+        return uuid.substring(0, 8) + "-" + uuid.substring(8, 12) + "-" + uuid.substring(12, 16) + "-" + uuid.substring(16, 20) + "-" + uuid.substring(20, 32);
     }
 }
 

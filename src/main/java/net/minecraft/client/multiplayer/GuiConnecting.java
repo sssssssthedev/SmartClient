@@ -18,6 +18,7 @@ import net.minecraft.network.handshake.client.C00Handshake;
 import net.minecraft.network.login.client.C00PacketLoginStart;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.ChatComponentTranslation;
+import net.sssssssthedev.SmartClient.Main;
 import net.sssssssthedev.SmartClient.discord.Client;
 import net.sssssssthedev.SmartClient.utils.ColorUtils;
 import org.apache.logging.log4j.LogManager;
@@ -74,6 +75,7 @@ public class GuiConnecting extends GuiScreen
                     GuiConnecting.this.networkManager.sendPacket(new C00Handshake(47, ip, port, EnumConnectionState.LOGIN));
                     GuiConnecting.this.networkManager.sendPacket(new C00PacketLoginStart(GuiConnecting.this.mc.getSession().getProfile()));
                     Client.getInstance().getDiscordMYRPC().update("Playing " + ip + (port != 25565 ? ":" + port : ""), "In Game");
+                    Main.setAutoReconnect(false);
                     vIP = ip;
                     vPORT = port;
                 }

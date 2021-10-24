@@ -24,6 +24,7 @@ import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.UUID;
 
 /***
  * Main class
@@ -33,7 +34,7 @@ public class Main {
 
     public static Main instance = new Main();
 
-    public static String build = "1.2.1";
+    public static String build = "1.2.3";
     public static String commit;
 
     static {
@@ -87,7 +88,6 @@ public class Main {
         valueManager = new ValueManager();
         ViaForge.getInstance().start();
         eventManager.register(this);
-
         if (s.equalsIgnoreCase("379-303-3fe-3d6-3cf-389-3e6-330-3d9-3cf-3a3-31d-30d-3b8-39a-3b1")) {
             System.out.println("[" + formatter.format(date) + "] " + "[Smart thread/INFO]:" +" ! VERIFICATION DONE");
             System.out.println("[" + formatter.format(date) + "] " + "[Smart thread/INFO]:" +" ! Version: Development");
