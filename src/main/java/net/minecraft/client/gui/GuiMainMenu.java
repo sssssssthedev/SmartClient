@@ -559,13 +559,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         this.drawString(this.fontRendererObj, s, 2, this.height - 20, -1);
         this.drawString(this.fontRendererObj, s2, 2, this.height - 10, -1);
         String s1 = "Copyright sssssss.dev (C) 2020-2025";
-        String s3 = "You are not allowed to redistribute";
-        String s4 = "the source code of the client or";
-        String s5 = "sell it for money";
-        this.drawString(this.fontRendererObj, s1, this.width - this.fontRendererObj.getStringWidth(s1) - 2, this.height - 40, -1);
-        this.drawString(this.fontRendererObj, s4, this.width - this.fontRendererObj.getStringWidth(s1) - 2, this.height - 20, -1);
-        this.drawString(this.fontRendererObj, s5, this.width - this.fontRendererObj.getStringWidth(s1) - 2, this.height - 10, -1);
-        this.drawString(this.fontRendererObj, s3, this.width - this.fontRendererObj.getStringWidth(s1) - 2, this.height - 30, -1);
+        this.drawString(this.fontRendererObj, s1, this.width - this.fontRendererObj.getStringWidth(s1) - 2, this.height - 10, -1);
 
         if (this.openGLWarning1 != null && this.openGLWarning1.length() > 0)
         {
