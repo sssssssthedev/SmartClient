@@ -70,7 +70,7 @@ public class GuiUUIDSpoof extends GuiScreen {
                     Main.SessionPremium = false;
                     this.Report = ColorUtils.color + "fSucessfully spoofed Premium UUID of " + ColorUtils.color + "b" + this.fakeNickField.getText();
                 } catch (Exception ex) {
-                    this.Report = ColorUtils.color + "fNick " + ColorUtils.color + "b" + this.fakeNickField.getText() + ColorUtils.color + " fisn't premium!";
+                    this.Report = ColorUtils.color + "fNick " + ColorUtils.color + "b" + this.fakeNickField.getText() + ColorUtils.color + "f isn't premium!";
                 }
             }
         } else if (button.id == 2) {
@@ -118,8 +118,7 @@ public class GuiUUIDSpoof extends GuiScreen {
 
     public String fetchUUID(String s) throws Exception {
         URL url = new URL("https://api.mojang.com/users/profiles/minecraft/" + s);
-        String uuid = (String)((JSONObject)(new JSONParser()).parse(new InputStreamReader(url.openStream()))).get("id");
-        return uuid.substring(0, 8) + "-" + uuid.substring(8, 12) + "-" + uuid.substring(12, 16) + "-" + uuid.substring(16, 20) + "-" + uuid.substring(20, 32);
+        return (String)((JSONObject)(new JSONParser()).parse(new InputStreamReader(url.openStream()))).get("id");
     }
 }
 
