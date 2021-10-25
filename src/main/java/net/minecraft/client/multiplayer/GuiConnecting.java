@@ -75,7 +75,6 @@ public class GuiConnecting extends GuiScreen
                     GuiConnecting.this.networkManager.sendPacket(new C00Handshake(47, ip, port, EnumConnectionState.LOGIN));
                     GuiConnecting.this.networkManager.sendPacket(new C00PacketLoginStart(GuiConnecting.this.mc.getSession().getProfile()));
                     Client.getInstance().getDiscordMYRPC().update("Playing " + ip + (port != 25565 ? ":" + port : ""), "In Game");
-                    Main.setAutoReconnect(false);
                     vIP = ip;
                     vPORT = port;
                 }
@@ -144,6 +143,7 @@ public class GuiConnecting extends GuiScreen
     public void initGui()
     {
         this.buttonList.clear();
+        this.buttonList.add(new GuiButton(1, this.width / 2 - 100, this.height / 4 + 120 + 33, "\u00a7eAuto Reconnect"));
         this.buttonList.add(new GuiButton(0, this.width / 2 - 100, this.height / 4 + 120 + 12, I18n.format("gui.cancel")));
     }
 
@@ -162,6 +162,9 @@ public class GuiConnecting extends GuiScreen
             }
 
             this.mc.displayGuiScreen(this.previousGuiScreen);
+        }
+        else if (button.id == 1) {
+            Main.setAutoReconnect(!Main.isAutoReconnect());
         }
     }
 

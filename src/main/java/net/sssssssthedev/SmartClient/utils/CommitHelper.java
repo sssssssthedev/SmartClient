@@ -1,5 +1,4 @@
 package net.sssssssthedev.SmartClient.utils;
-import net.sssssssthedev.SmartClient.Main;
 
 import java.io.*;
 import java.util.Properties;

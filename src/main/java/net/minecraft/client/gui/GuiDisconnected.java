@@ -92,6 +92,7 @@ public class GuiDisconnected extends GuiScreen
             drawCenteredString(fontRendererObj, "Relog Time: " + (Math.max(reconnectTime - System.currentTimeMillis(), 0)) + "ms", width / 2, GuiAltLogin.username != null ? 62 : 48, -1);
             if (System.currentTimeMillis() >= reconnectTime) {
                 this.mc.displayGuiScreen(new GuiConnecting(new GuiMultiplayer(new GuiMainMenu()), this.mc, new ServerData(ViaForge.getInstance().getLastServer(), ViaForge.getInstance().getLastServer(), false)));
+                return;
             }
         }
         super.drawScreen(mouseX, mouseY, partialTicks);
