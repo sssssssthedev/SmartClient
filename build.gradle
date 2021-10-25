@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id "com.gorylenko.gradle-git-properties" version "2.3.1"
 }
 
 group 'net.sssssssthedev'
@@ -7,6 +8,13 @@ version 'MC_1.8.8'
 
 sourceCompatibility = 1.8
 
+gitProperties {
+    // Customize file name (could be a file name or a relative file path below gitPropertiesResourceDir dir)
+    gitPropertiesName = "git.properties"
+    keys = [
+            'git.commit.id.abbrev'
+    ]
+}
 
 repositories {
     mavenCentral()
@@ -87,3 +95,7 @@ jar {
         }
     }
 }
+
+
+
+

@@ -24,7 +24,6 @@ import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.UUID;
 
 /***
  * Main class
@@ -34,7 +33,7 @@ public class Main {
 
     public static Main instance = new Main();
 
-    public static String build = "1.2.4";
+    public static String build = "1.2.5";
     public static String commit;
 
     static {
