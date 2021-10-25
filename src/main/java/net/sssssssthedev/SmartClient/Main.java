@@ -33,7 +33,7 @@ public class Main {
 
     public static Main instance = new Main();
 
-    public static String build = "1.2.5";
+    public static String build = "1.2.6";
     public static String commit;
 
     static {
