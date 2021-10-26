@@ -18,7 +18,6 @@ import net.minecraft.client.renderer.texture.DynamicTexture;
 import net.minecraft.client.renderer.texture.TextureUtil;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.ResourceLocation;
-import net.sssssssthedev.SmartClient.server.ServerDataFeatured;
 import net.sssssssthedev.SmartClient.utils.ColorUtils;
 import org.apache.commons.lang3.Validate;
 import org.apache.logging.log4j.LogManager;
@@ -66,10 +65,6 @@ public class ServerListEntryNormal implements GuiListExtended.IGuiListEntry {
             });
         }
 
-        boolean isFeaturedServer = (field_148301_e instanceof ServerDataFeatured);
-        if (isFeaturedServer) {
-            drawImg(x, y, false);
-        }
         boolean flag = this.field_148301_e.version > 47;
         boolean flag1 = this.field_148301_e.version < 47;
         boolean flag2 = flag || flag1;
@@ -77,7 +72,7 @@ public class ServerListEntryNormal implements GuiListExtended.IGuiListEntry {
         Minecraft.getMinecraft().fontRendererObj.drawString(ColorUtils.color + "bVersion:", x + 310, y + 1, 16777215);
         Minecraft.getMinecraft().fontRendererObj.drawString(ColorUtils.color + "f" + this.field_148301_e.gameVersion, x + 380, y + 1, 0);
         Minecraft.getMinecraft().fontRendererObj.drawString(ColorUtils.color + "bProtocol", x + 310, y + 11, 16777215);
-        Minecraft.getMinecraft().fontRendererObj.drawString(ColorUtils.color + "f"+ this.field_148301_e.version, x + 360, y + 11, 0);
+        Minecraft.getMinecraft().fontRendererObj.drawString(ColorUtils.color + "f" + this.field_148301_e.version, x + 360, y + 11, 0);
         List<String> list = this.mc.fontRendererObj.listFormattedStringToWidth(this.field_148301_e.serverMOTD, listWidth - 32 - 2);
 
         for (int i = 0; i < Math.min(list.size(), 2); ++i) {
@@ -168,16 +163,6 @@ public class ServerListEntryNormal implements GuiListExtended.IGuiListEntry {
                 }
             }
 
-            if (!isFeaturedServer) {
-
-                if (this.field_148303_c.func_175392_a(this, slotIndex)) {
-                    if (k1 < 16 && l1 < 16) {
-                        Gui.drawModalRectWithCustomSizedTexture(x, y, 96.0F, 32.0F, 32, 32, 256.0F, 256.0F);
-                    } else {
-                        Gui.drawModalRectWithCustomSizedTexture(x, y, 96.0F, 0.0F, 32, 32, 256.0F, 256.0F);
-                    }
-                }
-
             if (this.field_148303_c.func_175394_b(this, slotIndex)) {
                 if (k1 < 16 && l1 > 16) {
                     Gui.drawModalRectWithCustomSizedTexture(x, y, 64.0F, 32.0F, 32, 32, 256.0F, 256.0F);
@@ -187,10 +172,9 @@ public class ServerListEntryNormal implements GuiListExtended.IGuiListEntry {
             }
         }
     }
-}
+
 
     private void drawImg(int x, int y, boolean lower) {
-        this.mc.getTextureManager().bindTexture(ServerDataFeatured.STAR_ICON);
         Gui.drawModalRectWithCustomSizedTexture(x - 16, lower ? y + 16 : y, 0.0F, 0.0F, 16, 16, 16, 16);
     }
 
@@ -267,17 +251,15 @@ public class ServerListEntryNormal implements GuiListExtended.IGuiListEntry {
                 return true;
             }
 
-            if(!(this.field_148303_c.getServerList().getServerData(slotIndex) instanceof ServerDataFeatured)) {
 
-                if (p_148278_5_ < 16 && p_148278_6_ < 16 && this.field_148303_c.func_175392_a(this, slotIndex)) {
-                    this.field_148303_c.func_175391_a(this, slotIndex, GuiScreen.isShiftKeyDown());
-                    return true;
-                }
+            if (p_148278_5_ < 16 && p_148278_6_ < 16 && this.field_148303_c.func_175392_a(this, slotIndex)) {
+                this.field_148303_c.func_175391_a(this, slotIndex, GuiScreen.isShiftKeyDown());
+                return true;
+            }
 
-                if (p_148278_5_ < 16 && p_148278_6_ > 16 && this.field_148303_c.func_175394_b(this, slotIndex)) {
-                    this.field_148303_c.func_175393_b(this, slotIndex, GuiScreen.isShiftKeyDown());
-                    return true;
-                }
+            if (p_148278_5_ < 16 && p_148278_6_ > 16 && this.field_148303_c.func_175394_b(this, slotIndex)) {
+                this.field_148303_c.func_175393_b(this, slotIndex, GuiScreen.isShiftKeyDown());
+                return true;
             }
         }
 

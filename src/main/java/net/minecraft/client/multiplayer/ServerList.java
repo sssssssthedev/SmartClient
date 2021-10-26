@@ -7,7 +7,6 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.nbt.CompressedStreamTools;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
-import net.sssssssthedev.SmartClient.server.ServerDataFeatured;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -34,7 +33,6 @@ public class ServerList
         try
         {
             this.servers.clear();
-            loadFeaturedServers();
             NBTTagCompound nbttagcompound = CompressedStreamTools.read(new File(this.mc.mcDataDir, "servers.dat"));
 
             if (nbttagcompound == null)
@@ -54,19 +52,6 @@ public class ServerList
             logger.error((String)"Couldn\'t load server list", (Throwable)exception);
         }
     }
-
-    private void loadFeaturedServers() {
-        this.addServerData(new ServerDataFeatured("Featured Server", "mc.gamster.org"));
-    }
-    public int getFeaturedServerCount() {
-        int count = 0;
-        for(ServerData sd : this.servers) {
-            if(sd instanceof ServerDataFeatured) {
-                count++;
-            }
-        }
-        return count;
-    }
     /**
      * Runs getNBTCompound on each ServerData instance, puts everything into a "servers" NBT list and writes it to
      * servers.dat.
@@ -78,9 +63,7 @@ public class ServerList
             NBTTagList nbttaglist = new NBTTagList();
 
             for (ServerData serverdata : this.servers) {
-                if (!(serverdata instanceof ServerDataFeatured)) {
-                    nbttaglist.appendTag(serverdata.getNBTCompound());
-                }
+                nbttaglist.appendTag(serverdata.getNBTCompound());
             }
             NBTTagCompound nbttagcompound = new NBTTagCompound();
             nbttagcompound.setTag("servers", nbttaglist);
