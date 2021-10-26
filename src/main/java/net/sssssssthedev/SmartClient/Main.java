@@ -2,8 +2,6 @@ package net.sssssssthedev.SmartClient;
 
 
 // Copyright sssssss.dev (C) 2020-2021
-// You are not allowed to redistribute this source
-// without proper crediting or sell it for money
 
 import de.enzaxd.viaforge.ViaForge;
 import net.minecraft.util.Session;
