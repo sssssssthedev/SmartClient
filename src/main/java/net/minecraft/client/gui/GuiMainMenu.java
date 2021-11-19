@@ -548,9 +548,9 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         GlStateManager.scale(f, f, f);
         this.drawCenteredString(this.fontRendererObj, this.splashText, 0, -8, -256);
         GlStateManager.popMatrix();
-        String s = String.format("%s %s | %s | %s", Main.instance. smartClientAPI.versionInfo.name,  Main.instance.smartClientAPI.versionInfo.build,  Main.instance.smartClientAPI.versionInfo.version,  Main.instance.smartClientAPI.versionInfo.commit);
+        String s = String.format("%s %s | %s | %s", Main.instance.smartClientAPI.versionInfo.name,  Main.instance.smartClientAPI.versionInfo.build,  Main.instance.smartClientAPI.versionInfo.version,  Main.instance.smartClientAPI.versionInfo.commit);
         this.drawString(this.fontRendererObj, s, 2, this.height - 10, -1);
-        String s1 = "Copyright sssssss.dev (C) 2020-2025";
+        String s1 = "Copyright sssssss.dev (C) 2020-2022";
         this.drawString(this.fontRendererObj, s1, this.width - this.fontRendererObj.getStringWidth(s1) - 2, this.height - 10, -1);
 
         if (this.openGLWarning1 != null && this.openGLWarning1.length() > 0)

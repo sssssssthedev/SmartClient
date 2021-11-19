@@ -1,6 +1,6 @@
 package net.sssssssthedev.SmartClient.discord;
 
-import net.sssssssthedev.SmartClient.gui.SplashProgress;
+import net.sssssssthedev.SmartClient.ui.gui.SplashProgress;
 
 public class Client {
 
