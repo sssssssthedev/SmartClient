@@ -578,6 +578,8 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         this.checkGLError("Post startup");
         this.ingameGUI = new CustomIngameGui(this);
 
+        Main.instance.loadClient();
+
         if (this.serverName != null)
         {
             this.displayGuiScreen(new GuiConnecting(new GuiMainMenu(), this, this.serverName, this.serverPort));
@@ -632,10 +634,9 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         }
     }
 
-    private void createDisplay() throws LWJGLException, UnsupportedEncodingException, NoSuchAlgorithmException {
+    private void createDisplay() throws LWJGLException, IOException {
         Display.setResizable(true);
-        Main.instance.loadClient();
-        Display.setTitle("Smart Client " + Main.version + " " + Main.build + " " + Main.commit);
+        Display.setTitle("Loading...");
 
         try
         {

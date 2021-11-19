@@ -27,7 +27,6 @@ public class Netty extends Module {
         for (int i = 0; i < 150; i++)
             crash();
         toggle();
-        Command.ingameguimessage("\u00a7fError creating Thread Reason: F3CKY0U");
         super.onEnable();
     }
 

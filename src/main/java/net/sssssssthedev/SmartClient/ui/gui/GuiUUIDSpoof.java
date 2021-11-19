@@ -5,11 +5,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 
+import com.mojang.authlib.GameProfile;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.GuiTextField;
 import net.minecraft.util.Session;
 import net.sssssssthedev.SmartClient.Main;
+import net.sssssssthedev.SmartClient.ui.login.AltLoginThread;
+import net.sssssssthedev.SmartClient.ui.login.GuiAltLogin;
 import net.sssssssthedev.SmartClient.utils.ColorUtils;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -20,6 +24,8 @@ public class GuiUUIDSpoof extends GuiScreen {
     protected GuiTextField realNickField;
 
     protected GuiScreen prevScreen;
+
+    private AltLoginThread thread;
 
     private String Report;
 
@@ -40,7 +46,8 @@ public class GuiUUIDSpoof extends GuiScreen {
         this.realNickField = new GuiTextField(2, this.fontRendererObj, width / 2 - 100, height / 4 + 20,
                 200, 20);
         this.fakeNickField.setText(Main.getFakeNick());
-        this.realNickField.setText(mc.getSession().getUsername());
+        GameProfile profile = Minecraft.getMinecraft().getSession().getProfile();
+        this.realNickField.setText(profile.getName());
     }
 
     private String PremiumUUID() {
@@ -55,18 +62,22 @@ public class GuiUUIDSpoof extends GuiScreen {
         if (button.id == 1) {
             if (!Main.PremiumUUID) {
                 Session realSession = mc.getSession();
-                Session copiedSession = new Session(this.realNickField.getText(), realSession.getPlayerID(), realSession.getToken(), Session.Type.LEGACY.name());
+                Session copiedSession = new Session(realNickField.getText(), realSession.getPlayerID(), realSession.getToken(), Session.Type.LEGACY.name());
                 Main.setSession(copiedSession);
-                Main.setFakeNick(this.fakeNickField.getText());
+                Main.setFakeNick(fakeNickField.getText());
+                thread = new AltLoginThread(realNickField.getText(), "");
+                thread.start();
                 Main.SessionPremium = false;
-                mc.displayGuiScreen(this.prevScreen);
+                mc.displayGuiScreen(prevScreen);
             } else {
                 try {
-                    Main.PreUUID = fetchUUID(this.fakeNickField.getText());
+                    Main.PreUUID = fetchUUID(fakeNickField.getText());
                     Session realSession = mc.getSession();
-                    Session copiedSession = new Session(this.realNickField.getText(), realSession.getPlayerID(), realSession.getToken(), Session.Type.LEGACY.name());
+                    Session copiedSession = new Session(realNickField.getText(), realSession.getPlayerID(), realSession.getToken(), Session.Type.LEGACY.name());
                     Main.setSession(copiedSession);
-                    Main.setFakeNick(this.fakeNickField.getText());
+                    Main.setFakeNick(fakeNickField.getText());
+                    thread = new AltLoginThread(realNickField.getText(), "");
+                    thread.start();
                     Main.SessionPremium = false;
                     this.Report = ColorUtils.color + "fSucessfully spoofed Premium UUID of " + ColorUtils.color + "b" + this.fakeNickField.getText();
                 } catch (Exception ex) {

@@ -5,6 +5,7 @@ package net.sssssssthedev.SmartClient;
 
 import de.enzaxd.viaforge.ViaForge;
 import net.minecraft.util.Session;
+import net.sssssssthedev.SmartClient.api.SmartClientAPI;
 import net.sssssssthedev.SmartClient.clickgui.ClickGUI;
 import net.sssssssthedev.SmartClient.command.CommandManager;
 import net.sssssssthedev.SmartClient.event.EventManager;
@@ -13,8 +14,8 @@ import net.sssssssthedev.SmartClient.event.impl.KeyEvent;
 import net.sssssssthedev.SmartClient.module.Module;
 import net.sssssssthedev.SmartClient.module.ModuleManager;
 import net.sssssssthedev.SmartClient.settings.SettingsManager;
-import net.sssssssthedev.SmartClient.utils.CommitHelper;
 import net.sssssssthedev.SmartClient.utils.ValueManager;
+import org.lwjgl.opengl.Display;
 
 import java.io.IOException;
 import java.util.Date;
@@ -26,19 +27,6 @@ import java.util.Date;
 public class Main {
 
     public static Main instance = new Main();
-
-    public static String build = "1.2.7";
-    public static String commit;
-
-    static {
-        try {
-            commit = CommitHelper.instance.getCommitID();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static String version = "Production";
     public static Date date = new Date(System.currentTimeMillis());
     public static boolean BungeeHack;
     public static boolean PremiumUUID;
@@ -55,15 +43,20 @@ public class Main {
     public EventManager eventManager = new EventManager();
     public CommandManager commandManager = new CommandManager();
     public ValueManager valueManager = new ValueManager();
+    public SmartClientAPI smartClientAPI = new SmartClientAPI();
 
     /***
      * loadClient
      */
-    public void loadClient()  {
+    public void loadClient() throws IOException {
+        fakenick = "";
+        PreUUID = "";
         moduleManager = new ModuleManager();
         clickGUI = new ClickGUI();
         ViaForge.getInstance().start();
         eventManager.register(this);
+        smartClientAPI.load();
+        Display.setTitle(String.format("%s %s | %s | %s", smartClientAPI.versionInfo.name, smartClientAPI.versionInfo.build, smartClientAPI.versionInfo.version, smartClientAPI.versionInfo.commit));
         
     }
 
