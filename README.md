@@ -11,8 +11,8 @@ and made it public.
 Download them from here: https://www.mediafire.com/file/ct1dq7a4f745i5s/smartlibraries.rar
 
 # "Client not compiling"
-The client right now is unable to compile on my side, I don't know if this is a issue because i moved files around or because of updating Log4j because of the CVE.
-I am gonna try to fix it, until then use the latest released version, but be warned that is vulnerable to tha CVE until I manage to compile and release the version with latest Log4j.
+The client right now is unable to compile on my side, I don't know if this is a issue because iImoved files around or because of updating Log4j in response to the CVE.
+I am gonna try to fix it, until then use the latest released version, but be warned that it is vulnerable to tha CVE until I manage to compile and release the version with latest Log4j.
 
 # Copyright (C) sssssss.dev 2021-2022 All rights reserved
 You are not allowed to sell this for monetary profit, you are only allowed
