@@ -6,7 +6,8 @@ plugins {
 group 'net.sssssssthedev'
 version 'MC_1.8.8'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
+targetCompatibility = 11
 
 gitProperties {
     // Customize file name (could be a file name or a relative file path below gitPropertiesResourceDir dir)
