@@ -2,18 +2,20 @@ package net.sssssssthedev.SmartClient.module.player;
 
 import net.minecraft.client.settings.KeyBinding;
 import net.sssssssthedev.SmartClient.Main;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.UpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.Setting;
 import org.lwjgl.input.Keyboard;
 
+@IModule(
+        name = "InvMove",
+        key = 0,
+        category = Category.PLAYER
+)
 public class InvMove extends Module {
-
-    public InvMove() {
-        super("InvMove", Keyboard.KEY_0, Category.PLAYER);
-    }
 
     public void setup() {
         Main.instance.settingsManager.rSetting(new Setting("OpenInv", this, true));

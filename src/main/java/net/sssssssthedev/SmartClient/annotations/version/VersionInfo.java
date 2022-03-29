@@ -1,4 +1,4 @@
-package net.sssssssthedev.SmartClient.api.impl.version;
+package net.sssssssthedev.SmartClient.annotations.version;
 
 public class VersionInfo {
 
@@ -7,11 +7,11 @@ public class VersionInfo {
     public String build;
     public String commit;
 
-    public VersionInfo(String name, String version, String build, String commit) {
-        this.name = name;
-        this.version = version;
-        this.build = build;
-        this.commit = commit;
+    public VersionInfo() {
+        this.name = (getClass().getAnnotation(IVersion.class)).name();
+        this.version = (getClass().getAnnotation(IVersion.class)).version();
+        this.build = (getClass().getAnnotation(IVersion.class)).build();
+        this.commit = (getClass().getAnnotation(IVersion.class)).commit();
     }
 
     public void setVersion(String version) {

@@ -5,15 +5,17 @@ package net.sssssssthedev.SmartClient;
 
 import de.enzaxd.viaforge.ViaForge;
 import net.minecraft.util.Session;
-import net.sssssssthedev.SmartClient.api.SmartClientAPI;
+import net.sssssssthedev.SmartClient.annotations.version.IVersion;
+import net.sssssssthedev.SmartClient.annotations.version.VersionInfo;
 import net.sssssssthedev.SmartClient.clickgui.ClickGUI;
 import net.sssssssthedev.SmartClient.command.CommandManager;
 import net.sssssssthedev.SmartClient.event.EventManager;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.KeyEvent;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.module.ModuleManager;
 import net.sssssssthedev.SmartClient.settings.SettingsManager;
+import net.sssssssthedev.SmartClient.utils.CommitHelper;
 import net.sssssssthedev.SmartClient.utils.ValueManager;
 import org.lwjgl.opengl.Display;
 
@@ -24,7 +26,12 @@ import java.util.Date;
  * Main class
  * @author sssssssthedev
  */
-public class Main {
+@IVersion(
+        name = "SmartClient",
+        version = "1.2.9",
+        build = "Production"
+)
+public class Main extends VersionInfo {
 
     public static Main instance = new Main();
     public static Date date = new Date(System.currentTimeMillis());
@@ -43,7 +50,6 @@ public class Main {
     public EventManager eventManager = new EventManager();
     public CommandManager commandManager = new CommandManager();
     public ValueManager valueManager = new ValueManager();
-    public SmartClientAPI smartClientAPI = new SmartClientAPI();
 
     /***
      * loadClient
@@ -55,8 +61,8 @@ public class Main {
         clickGUI = new ClickGUI();
         ViaForge.getInstance().start();
         eventManager.register(this);
-        smartClientAPI.load();
-        Display.setTitle(String.format("%s %s | %s | %s", smartClientAPI.versionInfo.name, smartClientAPI.versionInfo.build, smartClientAPI.versionInfo.version, smartClientAPI.versionInfo.commit));
+        setCommit(CommitHelper.instance.getCommitID());
+        Display.setTitle(String.format("%s %s | %s | %s", getName(), getBuild(), getVersion(), getCommit()));
         
     }
 

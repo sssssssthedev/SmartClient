@@ -1,15 +1,16 @@
 package net.sssssssthedev.SmartClient.module.player;
 
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
-import org.lwjgl.input.Keyboard;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 
+@IModule(
+        name = "InstantRespawn",
+        key = 0,
+        category = Category.PLAYER
+)
 public class InstantRespawn extends Module {
-
-    public InstantRespawn() {
-        super("InstantRespawn", Keyboard.KEY_0, Category.PLAYER);
-    }
 
     @EventTarget
     public void onUpdate() {

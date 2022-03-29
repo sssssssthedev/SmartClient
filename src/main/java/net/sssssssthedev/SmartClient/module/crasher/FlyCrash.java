@@ -1,14 +1,16 @@
 package net.sssssssthedev.SmartClient.module.crasher;
 
 import net.minecraft.network.play.client.C03PacketPlayer;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
-import org.lwjgl.input.Keyboard;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 
+@IModule(
+        name = "FlyCrash",
+        key = 0,
+        category = Category.CRASHER
+)
 public class FlyCrash extends Module {
-    public FlyCrash() {
-        super("Fly", Keyboard.KEY_0, Category.CRASHER);
-    }
     Thread t;
 
     public void onEnable() {

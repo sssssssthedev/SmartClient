@@ -1,17 +1,19 @@
 package net.sssssssthedev.SmartClient.module.render;
 
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.UpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import org.lwjgl.input.Keyboard;
 
+@IModule(
+        name = "Fullbright",
+        key = Keyboard.KEY_C,
+        category = Category.RENDER
+)
 public class Fullbright extends Module {
     private float oldBrightness;
-
-    public Fullbright() {
-        super("Fullbright", Keyboard.KEY_C, Category.RENDER);
-    }
 
     @Override
     public void onEnable() {

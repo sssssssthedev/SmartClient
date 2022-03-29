@@ -2,7 +2,6 @@ package net.sssssssthedev.SmartClient.clickgui.elements;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
-import net.minecraft.client.resources.SimpleReloadableResourceManager;
 import net.sssssssthedev.SmartClient.Main;
 import net.sssssssthedev.SmartClient.clickgui.Panel;
 import net.sssssssthedev.SmartClient.clickgui.elements.menu.ElementCheckBox;
@@ -10,7 +9,7 @@ import net.sssssssthedev.SmartClient.clickgui.elements.menu.ElementComboBox;
 import net.sssssssthedev.SmartClient.clickgui.elements.menu.ElementSlider;
 import net.sssssssthedev.SmartClient.clickgui.util.ColorUtil;
 import net.sssssssthedev.SmartClient.clickgui.util.FontUtil;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.Setting;
 import org.lwjgl.input.Keyboard;
 

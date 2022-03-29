@@ -12,26 +12,28 @@ import net.minecraft.entity.passive.IAnimals;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.AxisAlignedBB;
 import net.sssssssthedev.SmartClient.Main;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.Event3D;
 import net.sssssssthedev.SmartClient.event.impl.PostRenderEntityEvent;
 import net.sssssssthedev.SmartClient.event.impl.RenderEntityEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.Setting;
 import net.sssssssthedev.SmartClient.utils.EntityUtils;
 import net.sssssssthedev.SmartClient.utils.RenderUtils;
-import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.GL11;
 
 import java.util.ArrayList;
 
 import static org.lwjgl.opengl.GL11.*;
 
+@IModule(
+        name = "ESP",
+        key = 0,
+        category = Category.RENDER
+)
 public class ESP extends Module {
-    public ESP() {
-        super("ESP", Keyboard.KEY_0, Category.RENDER);
-    }
 
     @Override
     public void setup() {

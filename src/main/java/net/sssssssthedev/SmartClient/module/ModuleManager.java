@@ -1,5 +1,6 @@
 package net.sssssssthedev.SmartClient.module;
 
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.module.combat.*;
 import net.sssssssthedev.SmartClient.module.crasher.*;
 import net.sssssssthedev.SmartClient.module.movement.*;

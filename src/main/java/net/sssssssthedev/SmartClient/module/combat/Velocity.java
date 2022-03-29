@@ -2,21 +2,23 @@ package net.sssssssthedev.SmartClient.module.combat;
 
 import net.minecraft.network.play.server.S12PacketEntityVelocity;
 import net.sssssssthedev.SmartClient.Main;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.SendPacketEvent;
 import net.sssssssthedev.SmartClient.event.impl.UpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.Setting;
 import net.sssssssthedev.SmartClient.utils.ColorUtils;
-import org.lwjgl.input.Keyboard;
 
 import java.util.ArrayList;
 
+@IModule(
+        name = "Velocity",
+        key = 0,
+        category = Category.COMBAT
+)
 public class Velocity extends Module {
-    public Velocity() {
-        super("Velocity", Keyboard.KEY_0, Category.COMBAT);
-    }
 
     public void setup() {
         ArrayList<String> options = new ArrayList<>();

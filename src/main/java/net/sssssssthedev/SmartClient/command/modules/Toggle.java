@@ -2,7 +2,7 @@ package net.sssssssthedev.SmartClient.command.modules;
 
 import net.sssssssthedev.SmartClient.Main;
 import net.sssssssthedev.SmartClient.command.Command;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.utils.ColorUtils;
 
 public class Toggle extends Command {

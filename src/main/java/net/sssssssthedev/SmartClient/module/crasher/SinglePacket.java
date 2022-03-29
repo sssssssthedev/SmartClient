@@ -8,14 +8,17 @@ import net.minecraft.nbt.NBTTagList;
 import net.minecraft.nbt.NBTTagString;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.play.client.C17PacketCustomPayload;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.command.Command;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
-import org.lwjgl.input.Keyboard;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 
+@IModule(
+        name = "SinglePacket",
+        key = 0,
+        category = Category.CRASHER
+)
 public class SinglePacket extends Module {
-
-    public SinglePacket() { super("SinglePacket", Keyboard.KEY_0, Category.CRASHER); }
 
     public void onEnable() {
         NBTTagCompound comp = new NBTTagCompound();

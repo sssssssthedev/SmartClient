@@ -7,11 +7,12 @@ import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.util.BlockPos;
 import net.minecraft.util.MathHelper;
 import net.sssssssthedev.SmartClient.Main;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.MoveEvent;
 import net.sssssssthedev.SmartClient.event.impl.PreMotionUpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.Setting;
 import net.sssssssthedev.SmartClient.utils.ColorUtils;
 import net.sssssssthedev.SmartClient.utils.TimeHelper;
@@ -19,10 +20,12 @@ import org.lwjgl.input.Keyboard;
 
 import java.util.ArrayList;
 
+@IModule(
+        name = "Speed",
+        key = Keyboard.KEY_U,
+        category = Category.MOVEMENT
+)
 public class Speed extends Module {
-    public Speed() {
-        super("Speed", Keyboard.KEY_U, Category.MOVEMENT);
-    }
 
     public TimeHelper timeUtil = new TimeHelper();
 

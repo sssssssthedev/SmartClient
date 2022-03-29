@@ -5,19 +5,20 @@ import net.minecraft.network.play.client.C07PacketPlayerDigging;
 import net.minecraft.util.BlockPos;
 import net.minecraft.util.EnumFacing;
 import net.sssssssthedev.SmartClient.Main;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.UpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.Setting;
 import net.sssssssthedev.SmartClient.utils.BlockUtil;
-import org.lwjgl.input.Keyboard;
 
+@IModule(
+        name = "BedFucker",
+        key = 0,
+        category = Category.WORLD
+)
 public class BedFucker extends Module {
-
-    public BedFucker() {
-        super("BedFucker", Keyboard.KEY_0, Category.WORLD);
-    }
 
     public void setup() {
         Main.instance.settingsManager.rSetting(new Setting("Range", this, 6, 1, 100, true));

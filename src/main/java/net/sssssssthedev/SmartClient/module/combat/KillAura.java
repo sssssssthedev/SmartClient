@@ -9,22 +9,24 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemSword;
 import net.minecraft.util.MathHelper;
 import net.sssssssthedev.SmartClient.Main;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.PostMotionUpdateEvent;
 import net.sssssssthedev.SmartClient.event.impl.PreMotionUpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.Setting;
 import org.lwjgl.input.Keyboard;
 
+@IModule(
+        name = "KillAura",
+        key = Keyboard.KEY_R,
+        category = Category.COMBAT
+)
 public class KillAura extends Module {
     private EntityLivingBase target;
     private long current, last;
     private float yaw, pitch;
-
-    public KillAura() {
-        super("KillAura", Keyboard.KEY_R, Category.COMBAT);
-    }
 
     @Override
     public void setup() {

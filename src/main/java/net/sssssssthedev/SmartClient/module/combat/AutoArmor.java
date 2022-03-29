@@ -1,20 +1,23 @@
 package net.sssssssthedev.SmartClient.module.combat;
 
 import net.minecraft.item.ItemStack;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.UpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.utils.ArmorUtils;
 
+
+@IModule(
+        name = "AutoArmor",
+        key = 0,
+        category = Category.COMBAT
+)
 public class AutoArmor extends Module {
     private int[] chestplate, leggings, boots, helmet;
     private int delay;
     private boolean best;
-
-    public AutoArmor() {
-        super("AutoArmor", 0, Category.COMBAT);
-    }
 
     @Override
     public void setup() {

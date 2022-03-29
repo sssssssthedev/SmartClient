@@ -8,17 +8,18 @@ import net.minecraft.nbt.NBTTagList;
 import net.minecraft.nbt.NBTTagString;
 import net.minecraft.network.play.client.C08PacketPlayerBlockPlacement;
 import net.minecraft.util.BlockPos;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
-import org.lwjgl.input.Keyboard;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 
 import java.util.Random;
 
+@IModule(
+        name = "Censored",
+        key = 0,
+        category = Category.CRASHER
+)
 public class Censored extends Module {
-
-    public Censored() {
-        super("Censored", Keyboard.KEY_0, Category.CRASHER);
-    }
 
     Thread t;
 

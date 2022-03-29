@@ -5,10 +5,11 @@ import net.minecraft.block.BlockSnow;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.play.client.C03PacketPlayer;
 import net.sssssssthedev.SmartClient.Main;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.UpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.Setting;
 import net.sssssssthedev.SmartClient.utils.ColorUtils;
 import org.lwjgl.input.Keyboard;
@@ -16,10 +17,12 @@ import org.lwjgl.input.Keyboard;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 
+@IModule(
+        name = "Fly",
+        key = Keyboard.KEY_F,
+        category = Category.MOVEMENT
+)
 public class Fly extends Module {
-    public Fly() {
-        super("Fly", Keyboard.KEY_F, Category.MOVEMENT);
-    }
 
     @Override
     public void setup() {

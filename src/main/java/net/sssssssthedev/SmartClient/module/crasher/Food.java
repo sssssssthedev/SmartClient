@@ -4,15 +4,16 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.network.play.client.C03PacketPlayer;
 import net.minecraft.network.play.client.C08PacketPlayerBlockPlacement;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
-import org.lwjgl.input.Keyboard;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 
+@IModule(
+        name = "Food",
+        key = 0,
+        category = Category.CRASHER
+)
 public class Food extends Module {
-
-    public Food() {
-        super("Food", Keyboard.KEY_0, Category.CRASHER);
-    }
 
     Thread t;
 

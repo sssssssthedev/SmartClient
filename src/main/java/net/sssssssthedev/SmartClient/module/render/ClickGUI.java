@@ -1,17 +1,20 @@
 package net.sssssssthedev.SmartClient.module.render;
 
 import net.sssssssthedev.SmartClient.Main;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.Setting;
 import org.lwjgl.input.Keyboard;
 
 import java.util.ArrayList;
 
+@IModule(
+        name = "ClickGUI",
+        key = Keyboard.KEY_RSHIFT,
+        category = Category.RENDER
+)
 public class ClickGUI extends Module {
-    public ClickGUI() {
-        super("ClickGUI", Keyboard.KEY_RSHIFT, Category.RENDER);
-    }
 
     @Override
     public void setup() {

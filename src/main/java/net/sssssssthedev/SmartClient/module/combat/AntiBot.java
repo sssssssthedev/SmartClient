@@ -3,21 +3,24 @@ package net.sssssssthedev.SmartClient.module.combat;
 import net.minecraft.entity.Entity;
 import net.minecraft.network.play.server.S0CPacketSpawnPlayer;
 import net.sssssssthedev.SmartClient.Main;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.ReceivePacketEvent;
 import net.sssssssthedev.SmartClient.event.impl.UpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.Setting;
 import net.sssssssthedev.SmartClient.ui.notification.NotificationManager;
 import org.lwjgl.input.Keyboard;
 
 import java.util.ArrayList;
 
+@IModule(
+        name = "AntiBot",
+        key = Keyboard.KEY_M,
+        category = Category.COMBAT
+)
 public class AntiBot extends Module {
-    public AntiBot() {
-        super("AntiBot", Keyboard.KEY_M, Category.COMBAT);
-    }
 
     @Override
     public void setup() {

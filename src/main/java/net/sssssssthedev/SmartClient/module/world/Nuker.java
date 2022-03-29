@@ -2,23 +2,25 @@ package net.sssssssthedev.SmartClient.module.world;
 
 import net.minecraft.block.Block;
 import net.minecraft.util.BlockPos;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.UpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.module.world.nukerutils.NukerBypassLevel;
 import net.sssssssthedev.SmartClient.module.world.nukerutils.NukerMode;
 import net.sssssssthedev.SmartClient.utils.BlockUtil;
 import net.sssssssthedev.SmartClient.utils.Random;
-import org.lwjgl.input.Keyboard;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@IModule(
+        name = "Nuker",
+        key = 0,
+        category = Category.WORLD
+)
 public class Nuker extends Module {
-    public Nuker() {
-        super("Nuker", Keyboard.KEY_0, Category.WORLD);
-    }
 
     int count = 6;
     NukerBypassLevel bypass = NukerBypassLevel.NONE;

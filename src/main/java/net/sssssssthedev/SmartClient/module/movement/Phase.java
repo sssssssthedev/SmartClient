@@ -1,16 +1,19 @@
 package net.sssssssthedev.SmartClient.module.movement;
 
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.CollideEvent;
 import net.sssssssthedev.SmartClient.event.impl.UpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.utils.PlayerUtils;
 
+@IModule(
+        name = "Phase",
+        key = 0,
+        category = Category.MOVEMENT
+)
 public class Phase extends Module {
-    public Phase() {
-        super("Phase", 0, Category.MOVEMENT);
-    }
 
     private int reset;
 

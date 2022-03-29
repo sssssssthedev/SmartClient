@@ -1,16 +1,19 @@
 package net.sssssssthedev.SmartClient.module.movement;
 
 import net.minecraft.potion.Potion;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.PostMotionUpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import org.lwjgl.input.Keyboard;
 
+@IModule(
+        name = "LongJump",
+        key = Keyboard.KEY_L,
+        category = Category.MOVEMENT
+)
 public class LongJump extends Module {
-    public LongJump() {
-        super("LongJump", Keyboard.KEY_L, Category.MOVEMENT);
-    }
 
     @EventTarget
     public void onPost(PostMotionUpdateEvent event) {

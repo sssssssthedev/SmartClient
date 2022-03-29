@@ -3,20 +3,23 @@ package net.sssssssthedev.SmartClient.module.combat;
 import net.minecraft.network.play.client.C02PacketUseEntity;
 import net.minecraft.network.play.client.C03PacketPlayer;
 import net.sssssssthedev.SmartClient.Main;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.SendPacketEvent;
 import net.sssssssthedev.SmartClient.event.impl.UpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.Setting;
 import net.sssssssthedev.SmartClient.utils.PlayerUtils;
 
 import java.util.ArrayList;
 
+@IModule(
+        name = "Criticals",
+        key = 0,
+        category = Category.COMBAT
+)
 public class Criticals extends Module {
-    public Criticals() {
-        super("Criticals", 0, Category.COMBAT);
-    }
 
     @Override
     public void setup() {

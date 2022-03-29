@@ -7,23 +7,24 @@ import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.sssssssthedev.SmartClient.Main;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.PreMotionUpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.Setting;
 import net.sssssssthedev.SmartClient.utils.TimeHelper;
-import org.lwjgl.input.Keyboard;
 
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+@IModule(
+        name = "InvCleaner",
+        key = 0,
+        category = Category.PLAYER
+)
 public class InvCleaner extends Module {
     public TimeHelper timer = new TimeHelper();
-
-    public InvCleaner() {
-        super("InvCleaner", Keyboard.KEY_0, Category.PLAYER);
-    }
 
     public void setup() {
         Main.instance.settingsManager.rSetting(new Setting("OpenInv", this, true));

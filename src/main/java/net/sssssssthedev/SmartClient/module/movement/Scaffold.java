@@ -8,24 +8,26 @@ import net.minecraft.util.BlockPos;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.Vec3;
 import net.sssssssthedev.SmartClient.Main;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.EventTarget;
 import net.sssssssthedev.SmartClient.event.impl.PostMotionUpdateEvent;
 import net.sssssssthedev.SmartClient.event.impl.PreMotionUpdateEvent;
 import net.sssssssthedev.SmartClient.event.impl.UpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.Setting;
 import net.sssssssthedev.SmartClient.utils.BlockUtil;
 import net.sssssssthedev.SmartClient.utils.TimeHelper;
-import org.lwjgl.input.Keyboard;
 
 import java.lang.reflect.Field;
 
+@IModule(
+        name = "Scaffold",
+        key = 0,
+        category = Category.MOVEMENT
+)
 public class Scaffold extends Module {
 
-    public Scaffold() {
-        super("Scaffold", Keyboard.KEY_X, Category.MOVEMENT);
-    }
     private BlockPos currentPos;
     private EnumFacing currentFacing;
     private boolean rotated = false;

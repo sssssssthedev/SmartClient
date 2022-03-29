@@ -3,22 +3,22 @@ package net.sssssssthedev.SmartClient.module.crasher;
 import io.netty.buffer.Unpooled;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.NBTBase;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.nbt.NBTTagString;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.play.client.C17PacketCustomPayload;
+import net.sssssssthedev.SmartClient.annotations.modules.IModule;
 import net.sssssssthedev.SmartClient.event.impl.UpdateEvent;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
-import org.lwjgl.input.Keyboard;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 
+@IModule(
+        name = "CustomPayload",
+        key = 0,
+        category = Category.CRASHER
+)
 public class CustomPayload extends Module {
-
-    public CustomPayload() {
-        super("CustomPayload", Keyboard.KEY_0, Category.CRASHER);
-    }
 
     public void onUpdate(UpdateEvent e) {
         NBTTagCompound comp = new NBTTagCompound();

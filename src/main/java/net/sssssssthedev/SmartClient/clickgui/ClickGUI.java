@@ -13,7 +13,7 @@ import net.sssssssthedev.SmartClient.clickgui.elements.menu.ElementSlider;
 import net.sssssssthedev.SmartClient.clickgui.util.ColorUtil;
 import net.sssssssthedev.SmartClient.clickgui.util.FontUtil;
 import net.sssssssthedev.SmartClient.module.Category;
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 import net.sssssssthedev.SmartClient.settings.SettingsManager;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.GL11;

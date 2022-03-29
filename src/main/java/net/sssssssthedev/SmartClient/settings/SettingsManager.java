@@ -1,6 +1,6 @@
 package net.sssssssthedev.SmartClient.settings;
 
-import net.sssssssthedev.SmartClient.module.Module;
+import net.sssssssthedev.SmartClient.annotations.modules.Module;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
