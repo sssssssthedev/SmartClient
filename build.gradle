@@ -11,7 +11,6 @@ sourceCompatibility = 11
 targetCompatibility = 11
 
 gitProperties {
-    // Customize file name (could be a file name or a relative file path below gitPropertiesResourceDir dir)
     gitPropertiesName = "git.properties"
     keys = [
             'git.commit.id.abbrev'
@@ -78,13 +77,6 @@ dependencies {
     implementation files('libs/ViaRewind-2.0.1.jar')
     implementation files('libs/ViaForge.jar')
     implementation files('libs/ViaSnakeYaml-1.27.jar')
-
-
-    /**
-     * Example of adding a dependency, remove this comment if tou want to add slick2d to your client.
-     * addLib group: 'slick', name: 'slick', version: '20121001-264'
-     */
-
     configurations.implementation.extendsFrom(configurations.addLib)
 }
 
