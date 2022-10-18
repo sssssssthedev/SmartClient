@@ -1,3 +1,6 @@
+# This is in the process of being rewriten for 1.19.
+
+
 # SmartClient
 1.8 Client based on alot of other clients
 
